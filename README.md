@@ -1,22 +1,9 @@
 # WeTrust
 
-Welcome to your new AlgoKit project!
+## Abstract
 
-This is your workspace root. A `workspace` in AlgoKit is an orchestrated collection of standalone projects (backends, smart contracts, frontend apps and etc).
+Discoverability on chain for new applications and assets depends on centralized verification systems. While this is doesn't imply security issue it creates a significant hurdle in scaling to meet all the future newly created applications and assets.
 
-By default, `projects_root_path` parameter is set to `projects`. Which instructs AlgoKit CLI to create a new directory under `projects` directory when new project is instantiated via `algokit init` at the root of the workspace.
+Some other attempts to completely decentralize these systems tends to hit a hard wall when faced on how to reach consensus while scaling. Is it DAO based? Token based or Account based?
 
-## Getting Started
-
-To get started refer to `README.md` files in respective sub-projects in the `projects` directory.
-
-To learn more about algokit, visit [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/algokit.md).
-
-### GitHub Codespaces
-
-To get started execute:
-
-1. `algokit generate devcontainer` - invoking this command from the root of this repository will create a `devcontainer.json` file with all the configuration needed to run this project in a GitHub codespace. [Run the repository inside a codespace](https://docs.github.com/en/codespaces/getting-started/quickstart) to get started.
-2. `algokit init` - invoke this command inside a github codespace to launch an interactive wizard to guide you through the process of creating a new AlgoKit project
-
-Powered by [Copier templates](https://copier.readthedocs.io/en/stable/).
+Through a social network of trust, each user can creates his own scoring system based on trusted peers.
