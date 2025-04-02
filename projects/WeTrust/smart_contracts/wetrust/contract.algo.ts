@@ -1,13 +1,6 @@
-import { Contract, BoxMap, Account, Txn, Application, Asset, abimethod, Global } from "@algorandfoundation/algorand-typescript";
+import { Contract, BoxMap, Account, Txn, Application, Asset, abimethod, Global, uint64 } from "@algorandfoundation/algorand-typescript";
 
 export class Wetrust extends Contract {
-  /**
-   * Set up Box Storage for:
-   * - 'trusted application';
-   * - 'trusted ASA';
-   * - 'merkle tree root' || 'list of inner circle trusted peers';
-   */
-
   trustedApp = BoxMap<Account, Application[]>({ keyPrefix: "trusted_app" });
 
   trustedASA = BoxMap<Account, Asset[]>({ keyPrefix: "trusted_asa" });
@@ -32,7 +25,6 @@ export class Wetrust extends Contract {
       this.adjacencyList(Txn.sender).value = [];
     }
 
-    // can you pass an empty array to the function?
     if (apps.length !== 0) {
       let trustedAppList = this.trustedApp(Txn.sender).value;
       this.trustedApp(Txn.sender).value = trustedAppList;
@@ -56,9 +48,9 @@ export class Wetrust extends Contract {
     if (app !== Application(0)) {
       const appList = this.trustedApp(Txn.sender).value;
       let newAppList: Application[] = [];
-      for (let i = 0; i < appList.length; i += 1) {
+      for (let i: uint64 = 0; i < appList.length; i += 1) {
         if (appList[i] !== app) {
-          newAppList.push(appList[i]);
+          newAppList = [...newAppList, appList[i]];
         }
       }
       this.trustedApp(Txn.sender).value = newAppList;
@@ -66,9 +58,9 @@ export class Wetrust extends Contract {
     if (asset !== Asset(0)) {
       const assetList = this.trustedASA(Txn.sender).value;
       let newAssetList: Asset[] = [];
-      for (let i = 0; i < assetList.length; i += 1) {
+      for (let i: uint64 = 0; i < assetList.length; i += 1) {
         if (assetList[i] !== asset) {
-          newAssetList.push(assetList[i]);
+          newAssetList = [...newAssetList, assetList[i]];
         }
       }
       this.trustedASA(Txn.sender).value = newAssetList;
@@ -76,9 +68,9 @@ export class Wetrust extends Contract {
     if (peer !== Global.zeroAddress) {
       const peerList = this.adjacencyList(Txn.sender).value;
       let newPeerList: Account[] = [];
-      for (let i = 0; i < peerList.length; i += 1) {
+      for (let i: uint64 = 0; i < peerList.length; i += 1) {
         if (peerList[i] !== peer) {
-          newPeerList.push(peerList[i]);
+          newPeerList = [...newPeerList, peerList[i]];
         }
       }
       this.adjacencyList(Txn.sender).value = newPeerList;
