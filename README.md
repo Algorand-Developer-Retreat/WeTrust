@@ -20,6 +20,6 @@ Tha calculation for the scoring is not set at the Smart Contract level, on chain
 
 - Graph Explorer
 
-- Enhancement discussion for Merkle Tree instead of an Array
+- Enhancement discussion for Merkle Tree instead of a static Array
 
 - ZK proof of relation to not expose Addresses.
