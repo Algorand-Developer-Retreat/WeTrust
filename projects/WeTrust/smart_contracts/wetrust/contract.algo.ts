@@ -10,7 +10,7 @@ import {
   assertMatch,
   gtxn,
 } from "@algorandfoundation/algorand-typescript";
-import { UintN64 } from "@algorandfoundation/algorand-typescript/arc4";
+import { UintN64, Address, DynamicArray } from "@algorandfoundation/algorand-typescript/arc4";
 
 const COST_PER_BYTE: uint64 = 400;
 const COST_PER_BOX: uint64 = 2500;
@@ -19,11 +19,11 @@ const UINT64_BYTES_SIZE: uint64 = 8;
 const ADDRESS_BYTES_SIZE: uint64 = 32;
 
 export class Wetrust extends Contract {
-  trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
+  trustedApp = BoxMap<Account, DynamicArray<UintN64>>({ keyPrefix: "trusted_app" });
 
-  trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
+  trustedASA = BoxMap<Account, DynamicArray<UintN64>>({ keyPrefix: "trusted_asa" });
 
-  adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
+  adjacencyList = BoxMap<Account, DynamicArray<Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
 
   init(payMbr: gtxn.PaymentTxn): void {
     const mbrToCover: uint64 = this.getBoxMbr(UINT64_BYTES_SIZE) + this.getBoxMbr(UINT64_BYTES_SIZE) + this.getBoxMbr(ADDRESS_BYTES_SIZE);
@@ -31,18 +31,18 @@ export class Wetrust extends Contract {
       receiver: Global.currentApplicationAddress,
       amount: { greaterThanEq: mbrToCover },
     });
-    this.trustedApp(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    this.trustedASA(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    this.adjacencyList(Txn.sender).value = new arc4.DynamicArray<arc4.Address>();
+    this.trustedApp(Txn.sender).value = new DynamicArray<UintN64>();
+    this.trustedASA(Txn.sender).value = new DynamicArray<UintN64>();
+    this.adjacencyList(Txn.sender).value = new DynamicArray<Address>();
   }
 
   /**
    * method to add trusted Applications, trusted ASAs and trusted peers to your list
-   * @param {arc4.UintN64} app - list of trusted Applications to add; leave empty if not adding any
-   * @param {arc4.UintN64} asset - list of trusted ASAs to add; leave empty if not adding any
-   * @param {arc4.Address} peer - list of trusted peers to add; leave empty if not adding any
+   * @param {UintN64} app - list of trusted Applications to add; leave empty if not adding any
+   * @param {UintN64} asset - list of trusted ASAs to add; leave empty if not adding any
+   * @param {Address} peer - list of trusted peers to add; leave empty if not adding any
    */
-  add(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
+  add(app: UintN64, asset: UintN64, peer: Address): void {
     if (app !== new UintN64(0)) {
       assertMatch(this.trustedApp(Txn.sender), { exists: true }, "trustedAppList should exist, call init first");
       let trustedAppList = this.trustedApp(Txn.sender).value.copy();
@@ -73,7 +73,7 @@ export class Wetrust extends Contract {
       this.trustedASA(Txn.sender).value = trustedASAlist.copy();
     }
 
-    if (peer !== new arc4.Address(Global.zeroAddress)) {
+    if (peer !== new Address(Global.zeroAddress)) {
       assertMatch(this.adjacencyList(Txn.sender), { exists: true }, "adjacencyList should exist, call init first");
       let adjacencyList = this.adjacencyList(Txn.sender).value.copy();
       assertMatch(adjacencyList, {
@@ -87,10 +87,10 @@ export class Wetrust extends Contract {
     }
   }
 
-  remove(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
-    if (app !== new arc4.UintN64(0)) {
+  remove(app: UintN64, asset: UintN64, peer: Address): void {
+    if (app !== new UintN64(0)) {
       const appList = this.trustedApp(Txn.sender).value.copy();
-      let newList = new arc4.DynamicArray<UintN64>();
+      let newList = new DynamicArray<UintN64>();
       for (let i: uint64 = 0; i < appList.length; i += 1) {
         if (appList[i] !== app) {
           newList.push(appList[i]);
@@ -98,9 +98,9 @@ export class Wetrust extends Contract {
       }
       this.trustedApp(Txn.sender).value = newList.copy();
     }
-    if (asset !== new arc4.UintN64(0)) {
+    if (asset !== new UintN64(0)) {
       const assetList = this.trustedASA(Txn.sender).value.copy();
-      let newList = new arc4.DynamicArray<UintN64>();
+      let newList = new DynamicArray<UintN64>();
       for (let i: uint64 = 0; i < assetList.length; i += 1) {
         if (assetList[i] !== asset) {
           newList.push(assetList[i]);
@@ -108,9 +108,9 @@ export class Wetrust extends Contract {
       }
       this.trustedASA(Txn.sender).value = newList.copy();
     }
-    if (peer !== new arc4.Address(Global.zeroAddress)) {
+    if (peer !== new Address(Global.zeroAddress)) {
       const peerList = this.adjacencyList(Txn.sender).value.copy();
-      let newList = new arc4.DynamicArray<arc4.Address>();
+      let newList = new DynamicArray<Address>();
       for (let i: uint64 = 0; i < peerList.length; i += 1) {
         if (peerList[i] !== peer) {
           newList.push(peerList[i]);
@@ -123,17 +123,17 @@ export class Wetrust extends Contract {
   //////////////
 
   @abimethod({ readonly: true })
-  getTrustedApp(account: Account): arc4.DynamicArray<arc4.UintN64> {
+  getTrustedApp(account: Account): DynamicArray<UintN64> {
     return this.trustedApp(account).value;
   }
 
   @abimethod({ readonly: true })
-  getTrustedASA(account: Account): arc4.DynamicArray<arc4.UintN64> {
+  getTrustedASA(account: Account): DynamicArray<UintN64> {
     return this.trustedASA(account).value;
   }
 
   @abimethod({ readonly: true })
-  getAdjacencyList(account: Account): arc4.DynamicArray<arc4.Address> {
+  getAdjacencyList(account: Account): DynamicArray<Address> {
     return this.adjacencyList(account).value;
   }
 
