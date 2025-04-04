@@ -3,7 +3,7 @@
   "sources": [
     "C:/Users/jacop/Devving/Algo/WeTrust/projects/WeTrust/smart_contracts/wetrust/contract.algo.ts"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -839,30 +839,30 @@
     "270": {
       "op": "gtxns Receiver",
       "defined_out": [
-        "tmp%0#0"
+        "tmp%4#0"
       ],
       "stack_out": [
-        "tmp%0#0"
+        "tmp%4#0"
       ]
     },
     "272": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
-        "tmp%0#0",
-        "tmp%1#0"
+        "tmp%4#0",
+        "tmp%5#0"
       ],
       "stack_out": [
-        "tmp%0#0",
-        "tmp%1#0"
+        "tmp%4#0",
+        "tmp%5#0"
       ]
     },
     "274": {
       "op": "==",
       "defined_out": [
-        "tmp%2#0"
+        "tmp%6#0"
       ],
       "stack_out": [
-        "tmp%2#0"
+        "tmp%6#0"
       ]
     },
     "275": {
@@ -878,30 +878,30 @@
     "280": {
       "op": "gtxns Amount",
       "defined_out": [
-        "tmp%3#0"
+        "tmp%7#0"
       ],
       "stack_out": [
-        "tmp%3#0"
+        "tmp%7#0"
       ]
     },
     "282": {
-      "op": "pushint 104500 // 104500",
+      "op": "pushint 26700 // 26700",
       "defined_out": [
-        "104500",
-        "tmp%3#0"
+        "26700",
+        "tmp%7#0"
       ],
       "stack_out": [
-        "tmp%3#0",
-        "104500"
+        "tmp%7#0",
+        "26700"
       ]
     },
     "286": {
       "op": ">=",
       "defined_out": [
-        "tmp%4#0"
+        "tmp%8#0"
       ],
       "stack_out": [
-        "tmp%4#0"
+        "tmp%8#0"
       ]
     },
     "287": {
@@ -928,10 +928,210 @@
       "stack_out": []
     },
     "292": {
+      "op": "bytec_0 // \"trusted_app\"",
+      "defined_out": [
+        "\"trusted_app\""
+      ],
+      "stack_out": [
+        "\"trusted_app\""
+      ]
+    },
+    "293": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"trusted_app\"",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "\"trusted_app\"",
+        "tmp%9#0"
+      ]
+    },
+    "295": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "296": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%10#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%10#0",
+        "tmp%10#0 (copy)"
+      ]
+    },
+    "297": {
+      "op": "box_del",
+      "defined_out": [
+        "tmp%10#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "tmp%10#0",
+        "{box_del}"
+      ]
+    },
+    "298": {
+      "op": "pop",
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "299": {
+      "op": "bytec_3 // 0x0000",
+      "defined_out": [
+        "0x0000",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0",
+        "0x0000"
+      ]
+    },
+    "300": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "301": {
+      "op": "bytec_1 // \"trusted_asa\"",
+      "defined_out": [
+        "\"trusted_asa\""
+      ],
+      "stack_out": [
+        "\"trusted_asa\""
+      ]
+    },
+    "302": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"trusted_asa\"",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "\"trusted_asa\"",
+        "tmp%11#0"
+      ]
+    },
+    "304": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%12#0"
+      ]
+    },
+    "305": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%12#0",
+        "tmp%12#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%12#0",
+        "tmp%12#0 (copy)"
+      ]
+    },
+    "306": {
+      "op": "box_del",
+      "stack_out": [
+        "tmp%12#0",
+        "{box_del}"
+      ]
+    },
+    "307": {
+      "op": "pop",
+      "stack_out": [
+        "tmp%12#0"
+      ]
+    },
+    "308": {
+      "op": "bytec_3 // 0x0000",
+      "stack_out": [
+        "tmp%12#0",
+        "0x0000"
+      ]
+    },
+    "309": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "310": {
+      "op": "bytec_2 // \"adjacency_list\"",
+      "defined_out": [
+        "\"adjacency_list\""
+      ],
+      "stack_out": [
+        "\"adjacency_list\""
+      ]
+    },
+    "311": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"adjacency_list\"",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "\"adjacency_list\"",
+        "tmp%13#0"
+      ]
+    },
+    "313": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "314": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%14#0",
+        "tmp%14#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%14#0",
+        "tmp%14#0 (copy)"
+      ]
+    },
+    "315": {
+      "op": "box_del",
+      "stack_out": [
+        "tmp%14#0",
+        "{box_del}"
+      ]
+    },
+    "316": {
+      "op": "pop",
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "317": {
+      "op": "bytec_3 // 0x0000",
+      "stack_out": [
+        "tmp%14#0",
+        "0x0000"
+      ]
+    },
+    "318": {
+      "op": "box_put",
+      "stack_out": []
+    },
+    "319": {
       "retsub": true,
       "op": "retsub"
     },
-    "293": {
+    "320": {
       "block": "init_bool_false@3",
       "stack_in": [],
       "op": "intc_0 // 0",
@@ -942,10 +1142,10 @@
         "and_result%0#0"
       ]
     },
-    "294": {
+    "321": {
       "op": "b init_bool_merge@4"
     },
-    "297": {
+    "324": {
       "subroutine": "smart_contracts/wetrust/contract.algo.ts::Wetrust.add",
       "params": {
         "app#0": "bytes",
@@ -956,13 +1156,13 @@
       "stack_in": [],
       "op": "proto 3 0"
     },
-    "300": {
+    "327": {
       "op": "intc_0 // 0",
       "stack_out": [
         "adjacencyList#0"
       ]
     },
-    "301": {
+    "328": {
       "op": "dupn 2",
       "stack_out": [
         "adjacencyList#0",
@@ -970,7 +1170,7 @@
         "trustedAppList#0"
       ]
     },
-    "303": {
+    "330": {
       "op": "pushbytes \"\"",
       "stack_out": [
         "adjacencyList#0",
@@ -979,7 +1179,7 @@
         "j#0"
       ]
     },
-    "305": {
+    "332": {
       "op": "dupn 2",
       "stack_out": [
         "adjacencyList#0",
@@ -990,649 +1190,7 @@
         "j\u2082#0"
       ]
     },
-    "307": {
-      "op": "bytec_0 // \"trusted_app\"",
-      "defined_out": [
-        "\"trusted_app\""
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_app\""
-      ]
-    },
-    "308": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"trusted_app\"",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_app\"",
-        "tmp%0#0"
-      ]
-    },
-    "310": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%1#0"
-      ]
-    },
-    "311": {
-      "op": "box_len",
-      "defined_out": [
-        "maybe_exists%0#0",
-        "maybe_value%0#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "312": {
-      "op": "bury 1",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "314": {
-      "op": "bnz add_after_if_else@2",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "317": {
-      "op": "bytec_0 // \"trusted_app\"",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_app\""
-      ]
-    },
-    "318": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"trusted_app\"",
-        "tmp%2#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_app\"",
-        "tmp%2#0"
-      ]
-    },
-    "320": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%3#0"
-      ]
-    },
-    "321": {
-      "op": "dup",
-      "defined_out": [
-        "tmp%3#0",
-        "tmp%3#0 (copy)"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%3#0",
-        "tmp%3#0 (copy)"
-      ]
-    },
-    "322": {
-      "op": "box_del",
-      "defined_out": [
-        "tmp%3#0",
-        "{box_del}"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%3#0",
-        "{box_del}"
-      ]
-    },
-    "323": {
-      "op": "pop",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%3#0"
-      ]
-    },
-    "324": {
-      "op": "bytec_3 // 0x0000",
-      "defined_out": [
-        "0x0000",
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%3#0",
-        "0x0000"
-      ]
-    },
-    "325": {
-      "op": "box_put",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "326": {
-      "block": "add_after_if_else@2",
-      "stack_in": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ],
-      "op": "bytec_1 // \"trusted_asa\"",
-      "defined_out": [
-        "\"trusted_asa\""
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_asa\""
-      ]
-    },
-    "327": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"trusted_asa\"",
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_asa\"",
-        "tmp%4#0"
-      ]
-    },
-    "329": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%5#0"
-      ]
-    },
-    "330": {
-      "op": "box_len",
-      "defined_out": [
-        "maybe_exists%1#0",
-        "maybe_value%1#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_value%1#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "331": {
-      "op": "bury 1",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "333": {
-      "op": "bnz add_after_if_else@4",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "336": {
-      "op": "bytec_1 // \"trusted_asa\"",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_asa\""
-      ]
-    },
-    "337": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"trusted_asa\"",
-        "tmp%6#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"trusted_asa\"",
-        "tmp%6#0"
-      ]
-    },
-    "339": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%7#0"
-      ]
-    },
-    "340": {
-      "op": "dup",
-      "defined_out": [
-        "tmp%7#0",
-        "tmp%7#0 (copy)"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%7#0",
-        "tmp%7#0 (copy)"
-      ]
-    },
-    "341": {
-      "op": "box_del",
-      "defined_out": [
-        "tmp%7#0",
-        "{box_del}"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%7#0",
-        "{box_del}"
-      ]
-    },
-    "342": {
-      "op": "pop",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%7#0"
-      ]
-    },
-    "343": {
-      "op": "bytec_3 // 0x0000",
-      "defined_out": [
-        "0x0000",
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%7#0",
-        "0x0000"
-      ]
-    },
-    "344": {
-      "op": "box_put",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "345": {
-      "block": "add_after_if_else@4",
-      "stack_in": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ],
-      "op": "bytec_2 // \"adjacency_list\"",
-      "defined_out": [
-        "\"adjacency_list\""
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"adjacency_list\""
-      ]
-    },
-    "346": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"adjacency_list\"",
-        "tmp%8#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"adjacency_list\"",
-        "tmp%8#0"
-      ]
-    },
-    "348": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%9#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%9#0"
-      ]
-    },
-    "349": {
-      "op": "box_len",
-      "defined_out": [
-        "maybe_exists%2#0",
-        "maybe_value%2#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_value%2#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "350": {
-      "op": "bury 1",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "352": {
-      "op": "bnz add_after_if_else@6",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "355": {
-      "op": "bytec_2 // \"adjacency_list\"",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"adjacency_list\""
-      ]
-    },
-    "356": {
-      "op": "txn Sender",
-      "defined_out": [
-        "\"adjacency_list\"",
-        "tmp%10#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "\"adjacency_list\"",
-        "tmp%10#0"
-      ]
-    },
-    "358": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%11#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%11#0"
-      ]
-    },
-    "359": {
-      "op": "dup",
-      "defined_out": [
-        "tmp%11#0",
-        "tmp%11#0 (copy)"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%11#0",
-        "tmp%11#0 (copy)"
-      ]
-    },
-    "360": {
-      "op": "box_del",
-      "defined_out": [
-        "tmp%11#0",
-        "{box_del}"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%11#0",
-        "{box_del}"
-      ]
-    },
-    "361": {
-      "op": "pop",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%11#0"
-      ]
-    },
-    "362": {
-      "op": "bytec_3 // 0x0000",
-      "defined_out": [
-        "0x0000",
-        "tmp%11#0"
-      ],
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0",
-        "tmp%11#0",
-        "0x0000"
-      ]
-    },
-    "363": {
-      "op": "box_put",
-      "stack_out": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ]
-    },
-    "364": {
-      "block": "add_after_if_else@6",
-      "stack_in": [
-        "adjacencyList#0",
-        "trustedASAlist#0",
-        "trustedAppList#0",
-        "j#0",
-        "j\u2081#0",
-        "j\u2082#0"
-      ],
+    "334": {
       "op": "frame_dig -3",
       "defined_out": [
         "app#0 (copy)"
@@ -1647,7 +1205,7 @@
         "app#0 (copy)"
       ]
     },
-    "366": {
+    "336": {
       "op": "bytec 4 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
@@ -1664,10 +1222,10 @@
         "0x0000000000000000"
       ]
     },
-    "368": {
+    "338": {
       "op": "!=",
       "defined_out": [
-        "tmp%12#0"
+        "tmp%0#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -1676,11 +1234,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%12#0"
+        "tmp%0#0"
       ]
     },
-    "369": {
-      "op": "bz add_after_if_else@11",
+    "339": {
+      "op": "bz add_after_if_else@5",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -1690,7 +1248,7 @@
         "j\u2082#0"
       ]
     },
-    "372": {
+    "342": {
       "op": "bytec_0 // \"trusted_app\"",
       "defined_out": [
         "\"trusted_app\""
@@ -1705,11 +1263,11 @@
         "\"trusted_app\""
       ]
     },
-    "373": {
+    "343": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_app\"",
-        "tmp%13#0"
+        "tmp%1#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -1719,13 +1277,13 @@
         "j\u2081#0",
         "j\u2082#0",
         "\"trusted_app\"",
-        "tmp%13#0"
+        "tmp%1#0"
       ]
     },
-    "375": {
+    "345": {
       "op": "concat",
       "defined_out": [
-        "tmp%14#0"
+        "tmp%2#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -1734,14 +1292,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%14#0"
+        "tmp%2#0"
       ]
     },
-    "376": {
-      "op": "box_get",
+    "346": {
+      "op": "box_len",
       "defined_out": [
-        "maybe_exists%3#0",
-        "trustedAppList#0"
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -1750,12 +1308,12 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "trustedAppList#0",
-        "maybe_exists%3#0"
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
       ]
     },
-    "377": {
-      "op": "swap",
+    "347": {
+      "op": "bury 1",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -1763,15 +1321,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "maybe_exists%3#0",
-        "trustedAppList#0"
+        "maybe_exists%0#0"
       ]
     },
-    "378": {
-      "op": "frame_bury 2",
+    "349": {
+      "op": "intc_1 // 1",
       "defined_out": [
-        "maybe_exists%3#0",
-        "trustedAppList#0"
+        "1",
+        "maybe_exists%0#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -1780,12 +1337,28 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "maybe_exists%3#0"
+        "maybe_exists%0#0",
+        "1"
       ]
     },
-    "380": {
-      "error": "Box must have value",
-      "op": "assert // Box must have value",
+    "350": {
+      "op": "==",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%3#0"
+      ]
+    },
+    "351": {
+      "error": "trustedAppList should exist, call init first",
+      "op": "assert // trustedAppList should exist, call init first",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -1795,7 +1368,214 @@
         "j\u2082#0"
       ]
     },
-    "381": {
+    "352": {
+      "op": "bytec_0 // \"trusted_app\"",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"trusted_app\""
+      ]
+    },
+    "353": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"trusted_app\"",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"trusted_app\"",
+        "tmp%4#0"
+      ]
+    },
+    "355": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%5#0"
+      ]
+    },
+    "356": {
+      "op": "box_get",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "trustedAppList#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedAppList#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "357": {
+      "op": "swap",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%1#0",
+        "trustedAppList#0"
+      ]
+    },
+    "358": {
+      "op": "dup",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%1#0",
+        "trustedAppList#0",
+        "trustedAppList#0 (copy)"
+      ]
+    },
+    "359": {
+      "op": "cover 2",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedAppList#0",
+        "maybe_exists%1#0",
+        "trustedAppList#0"
+      ]
+    },
+    "361": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "trustedAppList#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedAppList#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "363": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedAppList#0"
+      ]
+    },
+    "364": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedAppList#0",
+        "0"
+      ]
+    },
+    "365": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "tmp%6#0",
+        "trustedAppList#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%6#0"
+      ]
+    },
+    "366": {
+      "op": "pushint 128 // 128",
+      "defined_out": [
+        "128",
+        "tmp%6#0",
+        "trustedAppList#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%6#0",
+        "128"
+      ]
+    },
+    "369": {
+      "op": "<=",
+      "defined_out": [
+        "tmp%8#0",
+        "trustedAppList#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%8#0"
+      ]
+    },
+    "370": {
+      "error": "max number of App reached",
+      "op": "assert // max number of App reached",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0"
+      ]
+    },
+    "371": {
       "op": "intc_0 // 0",
       "defined_out": [
         "j#0",
@@ -1811,7 +1591,7 @@
         "j#0"
       ]
     },
-    "382": {
+    "372": {
       "op": "frame_bury 3",
       "defined_out": [
         "j#0",
@@ -1826,8 +1606,8 @@
         "j\u2082#0"
       ]
     },
-    "384": {
-      "block": "add_while_top@8",
+    "374": {
+      "block": "add_while_top@2",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -1850,7 +1630,7 @@
         "trustedAppList#0"
       ]
     },
-    "386": {
+    "376": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -1867,10 +1647,10 @@
         "0"
       ]
     },
-    "387": {
+    "377": {
       "op": "extract_uint16",
       "defined_out": [
-        "tmp%15#0",
+        "tmp%9#0",
         "trustedAppList#0"
       ],
       "stack_out": [
@@ -1880,14 +1660,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%15#0"
+        "tmp%9#0"
       ]
     },
-    "388": {
+    "378": {
       "op": "frame_dig 3",
       "defined_out": [
         "j#0",
-        "tmp%15#0",
+        "tmp%9#0",
         "trustedAppList#0"
       ],
       "stack_out": [
@@ -1897,15 +1677,15 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%15#0",
+        "tmp%9#0",
         "j#0"
       ]
     },
-    "390": {
+    "380": {
       "op": ">",
       "defined_out": [
         "j#0",
-        "tmp%16#0",
+        "tmp%10#0",
         "trustedAppList#0"
       ],
       "stack_out": [
@@ -1915,11 +1695,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%16#0"
+        "tmp%10#0"
       ]
     },
-    "391": {
-      "op": "bz add_after_while@10",
+    "381": {
+      "op": "bz add_after_while@4",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -1929,7 +1709,7 @@
         "j\u2082#0"
       ]
     },
-    "394": {
+    "384": {
       "op": "frame_dig 2",
       "stack_out": [
         "adjacencyList#0",
@@ -1941,7 +1721,7 @@
         "trustedAppList#0"
       ]
     },
-    "396": {
+    "386": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -1958,7 +1738,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "399": {
+    "389": {
       "op": "frame_dig 3",
       "stack_out": [
         "adjacencyList#0",
@@ -1971,7 +1751,7 @@
         "j#0"
       ]
     },
-    "401": {
+    "391": {
       "op": "dup",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -1991,7 +1771,7 @@
         "j#0 (copy)"
       ]
     },
-    "402": {
+    "392": {
       "op": "cover 2",
       "stack_out": [
         "adjacencyList#0",
@@ -2005,7 +1785,7 @@
         "j#0 (copy)"
       ]
     },
-    "404": {
+    "394": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -2027,7 +1807,7 @@
         "8"
       ]
     },
-    "405": {
+    "395": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -2047,7 +1827,7 @@
         "item_offset%0#0"
       ]
     },
-    "406": {
+    "396": {
       "op": "dig 1",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -2069,7 +1849,7 @@
         "array_head_and_tail%0#0 (copy)"
       ]
     },
-    "408": {
+    "398": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -2084,7 +1864,7 @@
         "item_offset%0#0"
       ]
     },
-    "409": {
+    "399": {
       "op": "intc_2 // 8",
       "stack_out": [
         "adjacencyList#0",
@@ -2100,7 +1880,7 @@
         "8"
       ]
     },
-    "410": {
+    "400": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2121,7 +1901,7 @@
         "app\u2081#0"
       ]
     },
-    "411": {
+    "401": {
       "op": "concat",
       "defined_out": [
         "concatenated%0#0",
@@ -2139,7 +1919,7 @@
         "concatenated%0#0"
       ]
     },
-    "412": {
+    "402": {
       "op": "dup",
       "defined_out": [
         "concatenated%0#0",
@@ -2159,7 +1939,7 @@
         "concatenated%0#0 (copy)"
       ]
     },
-    "413": {
+    "403": {
       "op": "len",
       "defined_out": [
         "byte_len%0#0",
@@ -2179,7 +1959,7 @@
         "byte_len%0#0"
       ]
     },
-    "414": {
+    "404": {
       "op": "intc_2 // 8",
       "stack_out": [
         "adjacencyList#0",
@@ -2194,7 +1974,7 @@
         "8"
       ]
     },
-    "415": {
+    "405": {
       "op": "/",
       "defined_out": [
         "concatenated%0#0",
@@ -2214,7 +1994,7 @@
         "len_%0#0"
       ]
     },
-    "416": {
+    "406": {
       "op": "itob",
       "defined_out": [
         "as_bytes%0#0",
@@ -2234,7 +2014,7 @@
         "as_bytes%0#0"
       ]
     },
-    "417": {
+    "407": {
       "op": "extract 6 2",
       "defined_out": [
         "concatenated%0#0",
@@ -2254,7 +2034,7 @@
         "len_16_bit%0#0"
       ]
     },
-    "420": {
+    "410": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -2268,7 +2048,7 @@
         "concatenated%0#0"
       ]
     },
-    "421": {
+    "411": {
       "op": "concat",
       "stack_out": [
         "adjacencyList#0",
@@ -2281,7 +2061,7 @@
         "trustedAppList#0"
       ]
     },
-    "422": {
+    "412": {
       "op": "frame_bury 2",
       "defined_out": [
         "j#0",
@@ -2297,7 +2077,7 @@
         "j#0"
       ]
     },
-    "424": {
+    "414": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -2315,7 +2095,7 @@
         "1"
       ]
     },
-    "425": {
+    "415": {
       "op": "+",
       "stack_out": [
         "adjacencyList#0",
@@ -2327,7 +2107,7 @@
         "j#0"
       ]
     },
-    "426": {
+    "416": {
       "op": "frame_bury 3",
       "defined_out": [
         "j#0",
@@ -2342,11 +2122,11 @@
         "j\u2082#0"
       ]
     },
-    "428": {
-      "op": "b add_while_top@8"
+    "418": {
+      "op": "b add_while_top@2"
     },
-    "431": {
-      "block": "add_after_while@10",
+    "421": {
+      "block": "add_after_while@4",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2369,11 +2149,11 @@
         "\"trusted_app\""
       ]
     },
-    "432": {
+    "422": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_app\"",
-        "tmp%17#0"
+        "tmp%11#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2383,13 +2163,13 @@
         "j\u2081#0",
         "j\u2082#0",
         "\"trusted_app\"",
-        "tmp%17#0"
+        "tmp%11#0"
       ]
     },
-    "434": {
+    "424": {
       "op": "concat",
       "defined_out": [
-        "tmp%18#0"
+        "tmp%12#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2398,14 +2178,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%18#0"
+        "tmp%12#0"
       ]
     },
-    "435": {
+    "425": {
       "op": "dup",
       "defined_out": [
-        "tmp%18#0",
-        "tmp%18#0 (copy)"
+        "tmp%12#0",
+        "tmp%12#0 (copy)"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2414,14 +2194,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%18#0",
-        "tmp%18#0 (copy)"
+        "tmp%12#0",
+        "tmp%12#0 (copy)"
       ]
     },
-    "436": {
+    "426": {
       "op": "box_del",
       "defined_out": [
-        "tmp%18#0",
+        "tmp%12#0",
         "{box_del}"
       ],
       "stack_out": [
@@ -2431,11 +2211,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%18#0",
+        "tmp%12#0",
         "{box_del}"
       ]
     },
-    "437": {
+    "427": {
       "op": "pop",
       "stack_out": [
         "adjacencyList#0",
@@ -2444,13 +2224,13 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%18#0"
+        "tmp%12#0"
       ]
     },
-    "438": {
+    "428": {
       "op": "frame_dig 2",
       "defined_out": [
-        "tmp%18#0",
+        "tmp%12#0",
         "trustedAppList#0"
       ],
       "stack_out": [
@@ -2460,11 +2240,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%18#0",
+        "tmp%12#0",
         "trustedAppList#0"
       ]
     },
-    "440": {
+    "430": {
       "op": "box_put",
       "stack_out": [
         "adjacencyList#0",
@@ -2475,8 +2255,8 @@
         "j\u2082#0"
       ]
     },
-    "441": {
-      "block": "add_after_if_else@11",
+    "431": {
+      "block": "add_after_if_else@5",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2499,7 +2279,7 @@
         "asset#0 (copy)"
       ]
     },
-    "443": {
+    "433": {
       "op": "bytec 4 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
@@ -2516,10 +2296,10 @@
         "0x0000000000000000"
       ]
     },
-    "445": {
+    "435": {
       "op": "!=",
       "defined_out": [
-        "tmp%19#0"
+        "tmp%13#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2528,11 +2308,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%19#0"
+        "tmp%13#0"
       ]
     },
-    "446": {
-      "op": "bz add_after_if_else@16",
+    "436": {
+      "op": "bz add_after_if_else@10",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2542,7 +2322,7 @@
         "j\u2082#0"
       ]
     },
-    "449": {
+    "439": {
       "op": "bytec_1 // \"trusted_asa\"",
       "defined_out": [
         "\"trusted_asa\""
@@ -2557,11 +2337,11 @@
         "\"trusted_asa\""
       ]
     },
-    "450": {
+    "440": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_asa\"",
-        "tmp%20#0"
+        "tmp%14#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2571,13 +2351,130 @@
         "j\u2081#0",
         "j\u2082#0",
         "\"trusted_asa\"",
-        "tmp%20#0"
+        "tmp%14#0"
+      ]
+    },
+    "442": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%15#0"
+      ]
+    },
+    "443": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "444": {
+      "op": "bury 1",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "446": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_exists%2#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%2#0",
+        "1"
+      ]
+    },
+    "447": {
+      "op": "==",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%16#0"
+      ]
+    },
+    "448": {
+      "error": "trustedASAlist should exist, call init first",
+      "op": "assert // trustedASAlist should exist, call init first",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0"
+      ]
+    },
+    "449": {
+      "op": "bytec_1 // \"trusted_asa\"",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"trusted_asa\""
+      ]
+    },
+    "450": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"trusted_asa\"",
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"trusted_asa\"",
+        "tmp%17#0"
       ]
     },
     "452": {
       "op": "concat",
       "defined_out": [
-        "tmp%21#0"
+        "tmp%18#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -2586,13 +2483,13 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%21#0"
+        "tmp%18#0"
       ]
     },
     "453": {
       "op": "box_get",
       "defined_out": [
-        "maybe_exists%4#0",
+        "maybe_exists%3#0",
         "trustedASAlist#0"
       ],
       "stack_out": [
@@ -2603,7 +2500,7 @@
         "j\u2081#0",
         "j\u2082#0",
         "trustedASAlist#0",
-        "maybe_exists%4#0"
+        "maybe_exists%3#0"
       ]
     },
     "454": {
@@ -2615,14 +2512,42 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "maybe_exists%4#0",
+        "maybe_exists%3#0",
         "trustedASAlist#0"
       ]
     },
     "455": {
+      "op": "dup",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%3#0",
+        "trustedASAlist#0",
+        "trustedASAlist#0 (copy)"
+      ]
+    },
+    "456": {
+      "op": "cover 2",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedASAlist#0",
+        "maybe_exists%3#0",
+        "trustedASAlist#0"
+      ]
+    },
+    "458": {
       "op": "frame_bury 1",
       "defined_out": [
-        "maybe_exists%4#0",
+        "maybe_exists%3#0",
         "trustedASAlist#0"
       ],
       "stack_out": [
@@ -2632,12 +2557,89 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "maybe_exists%4#0"
+        "trustedASAlist#0",
+        "maybe_exists%3#0"
       ]
     },
-    "457": {
+    "460": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedASAlist#0"
+      ]
+    },
+    "461": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "trustedASAlist#0",
+        "0"
+      ]
+    },
+    "462": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "tmp%19#0",
+        "trustedASAlist#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%19#0"
+      ]
+    },
+    "463": {
+      "op": "pushint 128 // 128",
+      "defined_out": [
+        "128",
+        "tmp%19#0",
+        "trustedASAlist#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%19#0",
+        "128"
+      ]
+    },
+    "466": {
+      "op": "<=",
+      "defined_out": [
+        "tmp%21#0",
+        "trustedASAlist#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%21#0"
+      ]
+    },
+    "467": {
+      "error": "assert target is match for conditions",
+      "op": "assert // assert target is match for conditions",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2647,7 +2649,7 @@
         "j\u2082#0"
       ]
     },
-    "458": {
+    "468": {
       "op": "intc_0 // 0",
       "defined_out": [
         "j\u2081#0",
@@ -2663,7 +2665,7 @@
         "j\u2081#0"
       ]
     },
-    "459": {
+    "469": {
       "op": "frame_bury 4",
       "defined_out": [
         "j\u2081#0",
@@ -2678,8 +2680,8 @@
         "j\u2082#0"
       ]
     },
-    "461": {
-      "block": "add_while_top@13",
+    "471": {
+      "block": "add_while_top@7",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2702,7 +2704,7 @@
         "trustedASAlist#0"
       ]
     },
-    "463": {
+    "473": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -2719,7 +2721,7 @@
         "0"
       ]
     },
-    "464": {
+    "474": {
       "op": "extract_uint16",
       "defined_out": [
         "tmp%22#0",
@@ -2735,7 +2737,7 @@
         "tmp%22#0"
       ]
     },
-    "465": {
+    "475": {
       "op": "frame_dig 4",
       "defined_out": [
         "j\u2081#0",
@@ -2753,7 +2755,7 @@
         "j\u2081#0"
       ]
     },
-    "467": {
+    "477": {
       "op": ">",
       "defined_out": [
         "j\u2081#0",
@@ -2770,8 +2772,8 @@
         "tmp%23#0"
       ]
     },
-    "468": {
-      "op": "bz add_after_while@15",
+    "478": {
+      "op": "bz add_after_while@9",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -2781,7 +2783,7 @@
         "j\u2082#0"
       ]
     },
-    "471": {
+    "481": {
       "op": "frame_dig 1",
       "stack_out": [
         "adjacencyList#0",
@@ -2793,7 +2795,7 @@
         "trustedASAlist#0"
       ]
     },
-    "473": {
+    "483": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%1#0",
@@ -2810,7 +2812,7 @@
         "array_head_and_tail%1#0"
       ]
     },
-    "476": {
+    "486": {
       "op": "frame_dig 4",
       "stack_out": [
         "adjacencyList#0",
@@ -2823,7 +2825,7 @@
         "j\u2081#0"
       ]
     },
-    "478": {
+    "488": {
       "op": "dup",
       "defined_out": [
         "array_head_and_tail%1#0",
@@ -2843,7 +2845,7 @@
         "j\u2081#0 (copy)"
       ]
     },
-    "479": {
+    "489": {
       "op": "cover 2",
       "stack_out": [
         "adjacencyList#0",
@@ -2857,7 +2859,7 @@
         "j\u2081#0 (copy)"
       ]
     },
-    "481": {
+    "491": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -2879,7 +2881,7 @@
         "8"
       ]
     },
-    "482": {
+    "492": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%1#0",
@@ -2899,7 +2901,7 @@
         "item_offset%1#0"
       ]
     },
-    "483": {
+    "493": {
       "op": "dig 1",
       "defined_out": [
         "array_head_and_tail%1#0",
@@ -2921,7 +2923,7 @@
         "array_head_and_tail%1#0 (copy)"
       ]
     },
-    "485": {
+    "495": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -2936,7 +2938,7 @@
         "item_offset%1#0"
       ]
     },
-    "486": {
+    "496": {
       "op": "intc_2 // 8",
       "stack_out": [
         "adjacencyList#0",
@@ -2952,7 +2954,7 @@
         "8"
       ]
     },
-    "487": {
+    "497": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -2973,7 +2975,7 @@
         "asset\u2081#0"
       ]
     },
-    "488": {
+    "498": {
       "op": "concat",
       "defined_out": [
         "concatenated%1#0",
@@ -2991,7 +2993,7 @@
         "concatenated%1#0"
       ]
     },
-    "489": {
+    "499": {
       "op": "dup",
       "defined_out": [
         "concatenated%1#0",
@@ -3011,7 +3013,7 @@
         "concatenated%1#0 (copy)"
       ]
     },
-    "490": {
+    "500": {
       "op": "len",
       "defined_out": [
         "byte_len%1#0",
@@ -3031,7 +3033,7 @@
         "byte_len%1#0"
       ]
     },
-    "491": {
+    "501": {
       "op": "intc_2 // 8",
       "stack_out": [
         "adjacencyList#0",
@@ -3046,7 +3048,7 @@
         "8"
       ]
     },
-    "492": {
+    "502": {
       "op": "/",
       "defined_out": [
         "concatenated%1#0",
@@ -3066,7 +3068,7 @@
         "len_%1#0"
       ]
     },
-    "493": {
+    "503": {
       "op": "itob",
       "defined_out": [
         "as_bytes%1#0",
@@ -3086,7 +3088,7 @@
         "as_bytes%1#0"
       ]
     },
-    "494": {
+    "504": {
       "op": "extract 6 2",
       "defined_out": [
         "concatenated%1#0",
@@ -3106,7 +3108,7 @@
         "len_16_bit%1#0"
       ]
     },
-    "497": {
+    "507": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -3120,7 +3122,7 @@
         "concatenated%1#0"
       ]
     },
-    "498": {
+    "508": {
       "op": "concat",
       "stack_out": [
         "adjacencyList#0",
@@ -3133,7 +3135,7 @@
         "trustedASAlist#0"
       ]
     },
-    "499": {
+    "509": {
       "op": "frame_bury 1",
       "defined_out": [
         "j\u2081#0",
@@ -3149,7 +3151,7 @@
         "j\u2081#0"
       ]
     },
-    "501": {
+    "511": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -3167,7 +3169,7 @@
         "1"
       ]
     },
-    "502": {
+    "512": {
       "op": "+",
       "stack_out": [
         "adjacencyList#0",
@@ -3179,7 +3181,7 @@
         "j\u2081#0"
       ]
     },
-    "503": {
+    "513": {
       "op": "frame_bury 4",
       "defined_out": [
         "j\u2081#0",
@@ -3194,11 +3196,11 @@
         "j\u2082#0"
       ]
     },
-    "505": {
-      "op": "b add_while_top@13"
+    "515": {
+      "op": "b add_while_top@7"
     },
-    "508": {
-      "block": "add_after_while@15",
+    "518": {
+      "block": "add_after_while@9",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3221,7 +3223,7 @@
         "\"trusted_asa\""
       ]
     },
-    "509": {
+    "519": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_asa\"",
@@ -3238,7 +3240,7 @@
         "tmp%24#0"
       ]
     },
-    "511": {
+    "521": {
       "op": "concat",
       "defined_out": [
         "tmp%25#0"
@@ -3253,7 +3255,7 @@
         "tmp%25#0"
       ]
     },
-    "512": {
+    "522": {
       "op": "dup",
       "defined_out": [
         "tmp%25#0",
@@ -3270,7 +3272,7 @@
         "tmp%25#0 (copy)"
       ]
     },
-    "513": {
+    "523": {
       "op": "box_del",
       "defined_out": [
         "tmp%25#0",
@@ -3287,7 +3289,7 @@
         "{box_del}"
       ]
     },
-    "514": {
+    "524": {
       "op": "pop",
       "stack_out": [
         "adjacencyList#0",
@@ -3299,7 +3301,7 @@
         "tmp%25#0"
       ]
     },
-    "515": {
+    "525": {
       "op": "frame_dig 1",
       "defined_out": [
         "tmp%25#0",
@@ -3316,7 +3318,7 @@
         "trustedASAlist#0"
       ]
     },
-    "517": {
+    "527": {
       "op": "box_put",
       "stack_out": [
         "adjacencyList#0",
@@ -3327,8 +3329,8 @@
         "j\u2082#0"
       ]
     },
-    "518": {
-      "block": "add_after_if_else@16",
+    "528": {
+      "block": "add_after_if_else@10",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3351,7 +3353,7 @@
         "peer#0 (copy)"
       ]
     },
-    "520": {
+    "530": {
       "op": "global ZeroAddress",
       "defined_out": [
         "peer#0 (copy)",
@@ -3368,7 +3370,7 @@
         "tmp%26#0"
       ]
     },
-    "522": {
+    "532": {
       "op": "!=",
       "defined_out": [
         "tmp%27#0"
@@ -3383,8 +3385,8 @@
         "tmp%27#0"
       ]
     },
-    "523": {
-      "op": "bz add_after_if_else@21",
+    "533": {
+      "op": "bz add_after_if_else@15",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3394,7 +3396,7 @@
         "j\u2082#0"
       ]
     },
-    "526": {
+    "536": {
       "op": "bytec_2 // \"adjacency_list\"",
       "defined_out": [
         "\"adjacency_list\""
@@ -3409,7 +3411,7 @@
         "\"adjacency_list\""
       ]
     },
-    "527": {
+    "537": {
       "op": "txn Sender",
       "defined_out": [
         "\"adjacency_list\"",
@@ -3426,7 +3428,7 @@
         "tmp%28#0"
       ]
     },
-    "529": {
+    "539": {
       "op": "concat",
       "defined_out": [
         "tmp%29#0"
@@ -3441,7 +3443,124 @@
         "tmp%29#0"
       ]
     },
-    "530": {
+    "540": {
+      "op": "box_len",
+      "defined_out": [
+        "maybe_exists%4#0",
+        "maybe_value%4#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "541": {
+      "op": "bury 1",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "543": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_exists%4#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%4#0",
+        "1"
+      ]
+    },
+    "544": {
+      "op": "==",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%30#0"
+      ]
+    },
+    "545": {
+      "error": "adjacencyList should exist, call init first",
+      "op": "assert // adjacencyList should exist, call init first",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0"
+      ]
+    },
+    "546": {
+      "op": "bytec_2 // \"adjacency_list\"",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"adjacency_list\""
+      ]
+    },
+    "547": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"adjacency_list\"",
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "\"adjacency_list\"",
+        "tmp%31#0"
+      ]
+    },
+    "549": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%32#0"
+      ]
+    },
+    "550": {
       "op": "box_get",
       "defined_out": [
         "adjacencyList#0",
@@ -3458,7 +3577,7 @@
         "maybe_exists%5#0"
       ]
     },
-    "531": {
+    "551": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -3471,7 +3590,35 @@
         "adjacencyList#0"
       ]
     },
-    "532": {
+    "552": {
+      "op": "dup",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "maybe_exists%5#0",
+        "adjacencyList#0",
+        "adjacencyList#0 (copy)"
+      ]
+    },
+    "553": {
+      "op": "cover 2",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "adjacencyList#0",
+        "maybe_exists%5#0",
+        "adjacencyList#0"
+      ]
+    },
+    "555": {
       "op": "frame_bury 0",
       "defined_out": [
         "adjacencyList#0",
@@ -3484,12 +3631,89 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
+        "adjacencyList#0",
         "maybe_exists%5#0"
       ]
     },
-    "534": {
+    "557": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "adjacencyList#0"
+      ]
+    },
+    "558": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "adjacencyList#0",
+        "0"
+      ]
+    },
+    "559": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "adjacencyList#0",
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%33#0"
+      ]
+    },
+    "560": {
+      "op": "intc_3 // 32",
+      "defined_out": [
+        "32",
+        "adjacencyList#0",
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%33#0",
+        "32"
+      ]
+    },
+    "561": {
+      "op": "<=",
+      "defined_out": [
+        "adjacencyList#0",
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "adjacencyList#0",
+        "trustedASAlist#0",
+        "trustedAppList#0",
+        "j#0",
+        "j\u2081#0",
+        "j\u2082#0",
+        "tmp%35#0"
+      ]
+    },
+    "562": {
+      "error": "assert target is match for conditions",
+      "op": "assert // assert target is match for conditions",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3499,7 +3723,7 @@
         "j\u2082#0"
       ]
     },
-    "535": {
+    "563": {
       "op": "intc_0 // 0",
       "defined_out": [
         "adjacencyList#0",
@@ -3515,7 +3739,7 @@
         "j\u2082#0"
       ]
     },
-    "536": {
+    "564": {
       "op": "frame_bury 5",
       "defined_out": [
         "adjacencyList#0",
@@ -3530,8 +3754,8 @@
         "j\u2082#0"
       ]
     },
-    "538": {
-      "block": "add_while_top@18",
+    "566": {
+      "block": "add_while_top@12",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3554,7 +3778,7 @@
         "adjacencyList#0"
       ]
     },
-    "540": {
+    "568": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3571,11 +3795,11 @@
         "0"
       ]
     },
-    "541": {
+    "569": {
       "op": "extract_uint16",
       "defined_out": [
         "adjacencyList#0",
-        "tmp%30#0"
+        "tmp%36#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -3584,15 +3808,15 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%30#0"
+        "tmp%36#0"
       ]
     },
-    "542": {
+    "570": {
       "op": "frame_dig 5",
       "defined_out": [
         "adjacencyList#0",
         "j\u2082#0",
-        "tmp%30#0"
+        "tmp%36#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -3601,16 +3825,16 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%30#0",
+        "tmp%36#0",
         "j\u2082#0"
       ]
     },
-    "544": {
+    "572": {
       "op": ">",
       "defined_out": [
         "adjacencyList#0",
         "j\u2082#0",
-        "tmp%31#0"
+        "tmp%37#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -3619,11 +3843,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%31#0"
+        "tmp%37#0"
       ]
     },
-    "545": {
-      "op": "bz add_after_while@20",
+    "573": {
+      "op": "bz add_after_while@14",
       "stack_out": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -3633,7 +3857,7 @@
         "j\u2082#0"
       ]
     },
-    "548": {
+    "576": {
       "op": "frame_dig 0",
       "stack_out": [
         "adjacencyList#0",
@@ -3645,7 +3869,7 @@
         "adjacencyList#0"
       ]
     },
-    "550": {
+    "578": {
       "op": "extract 2 0",
       "defined_out": [
         "adjacencyList#0",
@@ -3662,7 +3886,7 @@
         "array_head_and_tail%2#0"
       ]
     },
-    "553": {
+    "581": {
       "op": "frame_dig 5",
       "stack_out": [
         "adjacencyList#0",
@@ -3675,7 +3899,7 @@
         "j\u2082#0"
       ]
     },
-    "555": {
+    "583": {
       "op": "dup",
       "defined_out": [
         "adjacencyList#0",
@@ -3695,7 +3919,7 @@
         "j\u2082#0 (copy)"
       ]
     },
-    "556": {
+    "584": {
       "op": "cover 2",
       "stack_out": [
         "adjacencyList#0",
@@ -3709,7 +3933,7 @@
         "j\u2082#0 (copy)"
       ]
     },
-    "558": {
+    "586": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -3731,7 +3955,7 @@
         "32"
       ]
     },
-    "559": {
+    "587": {
       "op": "*",
       "defined_out": [
         "adjacencyList#0",
@@ -3751,7 +3975,7 @@
         "item_offset%2#0"
       ]
     },
-    "560": {
+    "588": {
       "op": "dig 1",
       "defined_out": [
         "adjacencyList#0",
@@ -3773,7 +3997,7 @@
         "array_head_and_tail%2#0 (copy)"
       ]
     },
-    "562": {
+    "590": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -3788,7 +4012,7 @@
         "item_offset%2#0"
       ]
     },
-    "563": {
+    "591": {
       "op": "intc_3 // 32",
       "stack_out": [
         "adjacencyList#0",
@@ -3804,7 +4028,7 @@
         "32"
       ]
     },
-    "564": {
+    "592": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -3825,7 +4049,7 @@
         "peer\u2081#0"
       ]
     },
-    "565": {
+    "593": {
       "op": "concat",
       "defined_out": [
         "adjacencyList#0",
@@ -3843,7 +4067,7 @@
         "concatenated%2#0"
       ]
     },
-    "566": {
+    "594": {
       "op": "dup",
       "defined_out": [
         "adjacencyList#0",
@@ -3863,7 +4087,7 @@
         "concatenated%2#0 (copy)"
       ]
     },
-    "567": {
+    "595": {
       "op": "len",
       "defined_out": [
         "adjacencyList#0",
@@ -3883,7 +4107,7 @@
         "byte_len%2#0"
       ]
     },
-    "568": {
+    "596": {
       "op": "intc_3 // 32",
       "stack_out": [
         "adjacencyList#0",
@@ -3898,7 +4122,7 @@
         "32"
       ]
     },
-    "569": {
+    "597": {
       "op": "/",
       "defined_out": [
         "adjacencyList#0",
@@ -3918,7 +4142,7 @@
         "len_%2#0"
       ]
     },
-    "570": {
+    "598": {
       "op": "itob",
       "defined_out": [
         "adjacencyList#0",
@@ -3938,7 +4162,7 @@
         "as_bytes%2#0"
       ]
     },
-    "571": {
+    "599": {
       "op": "extract 6 2",
       "defined_out": [
         "adjacencyList#0",
@@ -3958,7 +4182,7 @@
         "len_16_bit%2#0"
       ]
     },
-    "574": {
+    "602": {
       "op": "swap",
       "stack_out": [
         "adjacencyList#0",
@@ -3972,7 +4196,7 @@
         "concatenated%2#0"
       ]
     },
-    "575": {
+    "603": {
       "op": "concat",
       "stack_out": [
         "adjacencyList#0",
@@ -3985,7 +4209,7 @@
         "adjacencyList#0"
       ]
     },
-    "576": {
+    "604": {
       "op": "frame_bury 0",
       "defined_out": [
         "adjacencyList#0",
@@ -4001,7 +4225,7 @@
         "j\u2082#0"
       ]
     },
-    "578": {
+    "606": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -4019,7 +4243,7 @@
         "1"
       ]
     },
-    "579": {
+    "607": {
       "op": "+",
       "stack_out": [
         "adjacencyList#0",
@@ -4031,7 +4255,7 @@
         "j\u2082#0"
       ]
     },
-    "580": {
+    "608": {
       "op": "frame_bury 5",
       "defined_out": [
         "adjacencyList#0",
@@ -4046,11 +4270,11 @@
         "j\u2082#0"
       ]
     },
-    "582": {
-      "op": "b add_while_top@18"
+    "610": {
+      "op": "b add_while_top@12"
     },
-    "585": {
-      "block": "add_after_while@20",
+    "613": {
+      "block": "add_after_while@14",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -4073,11 +4297,11 @@
         "\"adjacency_list\""
       ]
     },
-    "586": {
+    "614": {
       "op": "txn Sender",
       "defined_out": [
         "\"adjacency_list\"",
-        "tmp%32#0"
+        "tmp%38#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -4087,13 +4311,13 @@
         "j\u2081#0",
         "j\u2082#0",
         "\"adjacency_list\"",
-        "tmp%32#0"
+        "tmp%38#0"
       ]
     },
-    "588": {
+    "616": {
       "op": "concat",
       "defined_out": [
-        "tmp%33#0"
+        "tmp%39#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -4102,14 +4326,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%33#0"
+        "tmp%39#0"
       ]
     },
-    "589": {
+    "617": {
       "op": "dup",
       "defined_out": [
-        "tmp%33#0",
-        "tmp%33#0 (copy)"
+        "tmp%39#0",
+        "tmp%39#0 (copy)"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -4118,14 +4342,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%33#0",
-        "tmp%33#0 (copy)"
+        "tmp%39#0",
+        "tmp%39#0 (copy)"
       ]
     },
-    "590": {
+    "618": {
       "op": "box_del",
       "defined_out": [
-        "tmp%33#0",
+        "tmp%39#0",
         "{box_del}"
       ],
       "stack_out": [
@@ -4135,11 +4359,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%33#0",
+        "tmp%39#0",
         "{box_del}"
       ]
     },
-    "591": {
+    "619": {
       "op": "pop",
       "stack_out": [
         "adjacencyList#0",
@@ -4148,14 +4372,14 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%33#0"
+        "tmp%39#0"
       ]
     },
-    "592": {
+    "620": {
       "op": "frame_dig 0",
       "defined_out": [
         "adjacencyList#0",
-        "tmp%33#0"
+        "tmp%39#0"
       ],
       "stack_out": [
         "adjacencyList#0",
@@ -4164,11 +4388,11 @@
         "j#0",
         "j\u2081#0",
         "j\u2082#0",
-        "tmp%33#0",
+        "tmp%39#0",
         "adjacencyList#0"
       ]
     },
-    "594": {
+    "622": {
       "op": "box_put",
       "stack_out": [
         "adjacencyList#0",
@@ -4179,8 +4403,8 @@
         "j\u2082#0"
       ]
     },
-    "595": {
-      "block": "add_after_if_else@21",
+    "623": {
+      "block": "add_after_if_else@15",
       "stack_in": [
         "adjacencyList#0",
         "trustedASAlist#0",
@@ -4192,7 +4416,7 @@
       "retsub": true,
       "op": "retsub"
     },
-    "596": {
+    "624": {
       "subroutine": "smart_contracts/wetrust/contract.algo.ts::Wetrust.remove",
       "params": {
         "app#0": "bytes",
@@ -4203,13 +4427,13 @@
       "stack_in": [],
       "op": "proto 3 0"
     },
-    "599": {
+    "627": {
       "op": "intc_0 // 0",
       "stack_out": [
         "appList#0"
       ]
     },
-    "600": {
+    "628": {
       "op": "dupn 11",
       "stack_out": [
         "appList#0",
@@ -4226,7 +4450,7 @@
         "tmp%5#0"
       ]
     },
-    "602": {
+    "630": {
       "op": "pushbytes \"\"",
       "stack_out": [
         "appList#0",
@@ -4244,7 +4468,7 @@
         "i#0"
       ]
     },
-    "604": {
+    "632": {
       "op": "dupn 2",
       "stack_out": [
         "appList#0",
@@ -4264,7 +4488,7 @@
         "i\u2082#0"
       ]
     },
-    "606": {
+    "634": {
       "op": "frame_dig -3",
       "defined_out": [
         "app#0 (copy)"
@@ -4288,7 +4512,7 @@
         "app#0 (copy)"
       ]
     },
-    "608": {
+    "636": {
       "op": "bytec 4 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
@@ -4314,7 +4538,7 @@
         "0x0000000000000000"
       ]
     },
-    "610": {
+    "638": {
       "op": "!=",
       "defined_out": [
         "tmp%0#0"
@@ -4338,7 +4562,7 @@
         "tmp%0#0"
       ]
     },
-    "611": {
+    "639": {
       "op": "bz remove_after_if_else@7",
       "stack_out": [
         "appList#0",
@@ -4358,7 +4582,7 @@
         "i\u2082#0"
       ]
     },
-    "614": {
+    "642": {
       "op": "bytec_0 // \"trusted_app\"",
       "defined_out": [
         "\"trusted_app\""
@@ -4382,7 +4606,7 @@
         "\"trusted_app\""
       ]
     },
-    "615": {
+    "643": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_app\"",
@@ -4408,7 +4632,7 @@
         "tmp%1#0"
       ]
     },
-    "617": {
+    "645": {
       "op": "concat",
       "defined_out": [
         "tmp%2#0"
@@ -4432,7 +4656,7 @@
         "tmp%2#0"
       ]
     },
-    "618": {
+    "646": {
       "op": "box_get",
       "defined_out": [
         "appList#0",
@@ -4458,7 +4682,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "619": {
+    "647": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -4480,7 +4704,7 @@
         "appList#0"
       ]
     },
-    "620": {
+    "648": {
       "op": "frame_bury 0",
       "defined_out": [
         "appList#0",
@@ -4505,7 +4729,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "622": {
+    "650": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -4526,7 +4750,7 @@
         "i\u2082#0"
       ]
     },
-    "623": {
+    "651": {
       "op": "bytec_3 // 0x0000",
       "defined_out": [
         "appList#0",
@@ -4551,7 +4775,7 @@
         "newList#0"
       ]
     },
-    "624": {
+    "652": {
       "op": "frame_bury 2",
       "defined_out": [
         "appList#0",
@@ -4575,7 +4799,7 @@
         "i\u2082#0"
       ]
     },
-    "626": {
+    "654": {
       "op": "intc_0 // 0",
       "defined_out": [
         "appList#0",
@@ -4601,7 +4825,7 @@
         "i#0"
       ]
     },
-    "627": {
+    "655": {
       "op": "frame_bury 12",
       "stack_out": [
         "appList#0",
@@ -4621,7 +4845,7 @@
         "i\u2082#0"
       ]
     },
-    "629": {
+    "657": {
       "block": "remove_while_top@2",
       "stack_in": [
         "appList#0",
@@ -4663,7 +4887,7 @@
         "appList#0"
       ]
     },
-    "631": {
+    "659": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -4689,7 +4913,7 @@
         "0"
       ]
     },
-    "632": {
+    "660": {
       "op": "extract_uint16",
       "defined_out": [
         "appList#0",
@@ -4714,7 +4938,7 @@
         "tmp%3#0"
       ]
     },
-    "633": {
+    "661": {
       "op": "frame_dig 12",
       "defined_out": [
         "appList#0",
@@ -4741,7 +4965,7 @@
         "i#0"
       ]
     },
-    "635": {
+    "663": {
       "op": ">",
       "defined_out": [
         "appList#0",
@@ -4767,7 +4991,7 @@
         "tmp%4#0"
       ]
     },
-    "636": {
+    "664": {
       "op": "bz remove_after_while@6",
       "stack_out": [
         "appList#0",
@@ -4787,7 +5011,7 @@
         "i\u2082#0"
       ]
     },
-    "639": {
+    "667": {
       "op": "frame_dig 0",
       "stack_out": [
         "appList#0",
@@ -4808,7 +5032,7 @@
         "appList#0"
       ]
     },
-    "641": {
+    "669": {
       "op": "extract 2 0",
       "defined_out": [
         "appList#0",
@@ -4834,7 +5058,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "644": {
+    "672": {
       "op": "frame_dig 12",
       "stack_out": [
         "appList#0",
@@ -4856,7 +5080,7 @@
         "i#0"
       ]
     },
-    "646": {
+    "674": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -4885,7 +5109,7 @@
         "8"
       ]
     },
-    "647": {
+    "675": {
       "op": "*",
       "defined_out": [
         "appList#0",
@@ -4913,7 +5137,7 @@
         "item_offset%0#0"
       ]
     },
-    "648": {
+    "676": {
       "op": "intc_2 // 8",
       "stack_out": [
         "appList#0",
@@ -4936,7 +5160,7 @@
         "8"
       ]
     },
-    "649": {
+    "677": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -4963,7 +5187,7 @@
         "tmp%5#0"
       ]
     },
-    "650": {
+    "678": {
       "op": "dup",
       "stack_out": [
         "appList#0",
@@ -4985,7 +5209,7 @@
         "tmp%5#0"
       ]
     },
-    "651": {
+    "679": {
       "op": "frame_bury 11",
       "defined_out": [
         "appList#0",
@@ -5011,7 +5235,7 @@
         "tmp%5#0"
       ]
     },
-    "653": {
+    "681": {
       "op": "frame_dig -3",
       "defined_out": [
         "app#0 (copy)",
@@ -5039,7 +5263,7 @@
         "app#0 (copy)"
       ]
     },
-    "655": {
+    "683": {
       "op": "!=",
       "defined_out": [
         "appList#0",
@@ -5066,7 +5290,7 @@
         "tmp%6#0"
       ]
     },
-    "656": {
+    "684": {
       "op": "frame_dig 2",
       "defined_out": [
         "appList#0",
@@ -5095,7 +5319,7 @@
         "newList#9"
       ]
     },
-    "658": {
+    "686": {
       "op": "frame_bury 3",
       "defined_out": [
         "appList#0",
@@ -5123,7 +5347,7 @@
         "tmp%6#0"
       ]
     },
-    "660": {
+    "688": {
       "op": "bz remove_after_if_else@5",
       "stack_out": [
         "appList#0",
@@ -5143,7 +5367,7 @@
         "i\u2082#0"
       ]
     },
-    "663": {
+    "691": {
       "op": "frame_dig 2",
       "defined_out": [
         "appList#0",
@@ -5171,7 +5395,7 @@
         "newList#0"
       ]
     },
-    "665": {
+    "693": {
       "op": "extract 2 0",
       "defined_out": [
         "appList#0",
@@ -5200,7 +5424,7 @@
         "expr_value_trimmed%0#0"
       ]
     },
-    "668": {
+    "696": {
       "op": "frame_dig 11",
       "stack_out": [
         "appList#0",
@@ -5222,7 +5446,7 @@
         "tmp%5#0"
       ]
     },
-    "670": {
+    "698": {
       "op": "concat",
       "defined_out": [
         "appList#0",
@@ -5251,7 +5475,7 @@
         "concatenated%0#0"
       ]
     },
-    "671": {
+    "699": {
       "op": "dup",
       "defined_out": [
         "appList#0",
@@ -5282,7 +5506,7 @@
         "concatenated%0#0 (copy)"
       ]
     },
-    "672": {
+    "700": {
       "op": "len",
       "defined_out": [
         "appList#0",
@@ -5313,7 +5537,7 @@
         "byte_len%0#0"
       ]
     },
-    "673": {
+    "701": {
       "op": "intc_2 // 8",
       "stack_out": [
         "appList#0",
@@ -5336,7 +5560,7 @@
         "8"
       ]
     },
-    "674": {
+    "702": {
       "op": "/",
       "defined_out": [
         "appList#0",
@@ -5367,7 +5591,7 @@
         "len_%0#0"
       ]
     },
-    "675": {
+    "703": {
       "op": "itob",
       "defined_out": [
         "appList#0",
@@ -5398,7 +5622,7 @@
         "as_bytes%0#0"
       ]
     },
-    "676": {
+    "704": {
       "op": "extract 6 2",
       "defined_out": [
         "appList#0",
@@ -5429,7 +5653,7 @@
         "len_16_bit%0#0"
       ]
     },
-    "679": {
+    "707": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -5451,7 +5675,7 @@
         "concatenated%0#0"
       ]
     },
-    "680": {
+    "708": {
       "op": "concat",
       "stack_out": [
         "appList#0",
@@ -5472,7 +5696,7 @@
         "newList#9"
       ]
     },
-    "681": {
+    "709": {
       "op": "frame_bury 3",
       "stack_out": [
         "appList#0",
@@ -5492,7 +5716,7 @@
         "i\u2082#0"
       ]
     },
-    "683": {
+    "711": {
       "block": "remove_after_if_else@5",
       "stack_in": [
         "appList#0",
@@ -5534,7 +5758,7 @@
         "newList#0"
       ]
     },
-    "685": {
+    "713": {
       "op": "frame_bury 2",
       "defined_out": [
         "newList#0"
@@ -5557,7 +5781,7 @@
         "i\u2082#0"
       ]
     },
-    "687": {
+    "715": {
       "op": "frame_dig 12",
       "defined_out": [
         "i#0",
@@ -5582,7 +5806,7 @@
         "i#0"
       ]
     },
-    "689": {
+    "717": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -5609,7 +5833,7 @@
         "1"
       ]
     },
-    "690": {
+    "718": {
       "op": "+",
       "stack_out": [
         "appList#0",
@@ -5630,7 +5854,7 @@
         "i#0"
       ]
     },
-    "691": {
+    "719": {
       "op": "frame_bury 12",
       "stack_out": [
         "appList#0",
@@ -5650,10 +5874,10 @@
         "i\u2082#0"
       ]
     },
-    "693": {
+    "721": {
       "op": "b remove_while_top@2"
     },
-    "696": {
+    "724": {
       "block": "remove_after_while@6",
       "stack_in": [
         "appList#0",
@@ -5695,7 +5919,7 @@
         "\"trusted_app\""
       ]
     },
-    "697": {
+    "725": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_app\"",
@@ -5721,7 +5945,7 @@
         "tmp%8#0"
       ]
     },
-    "699": {
+    "727": {
       "op": "concat",
       "defined_out": [
         "tmp%9#0"
@@ -5745,7 +5969,7 @@
         "tmp%9#0"
       ]
     },
-    "700": {
+    "728": {
       "op": "dup",
       "defined_out": [
         "tmp%9#0",
@@ -5771,7 +5995,7 @@
         "tmp%9#0 (copy)"
       ]
     },
-    "701": {
+    "729": {
       "op": "box_del",
       "defined_out": [
         "tmp%9#0",
@@ -5797,7 +6021,7 @@
         "{box_del}"
       ]
     },
-    "702": {
+    "730": {
       "op": "pop",
       "stack_out": [
         "appList#0",
@@ -5818,7 +6042,7 @@
         "tmp%9#0"
       ]
     },
-    "703": {
+    "731": {
       "op": "frame_dig 2",
       "defined_out": [
         "newList#0",
@@ -5844,7 +6068,7 @@
         "newList#0"
       ]
     },
-    "705": {
+    "733": {
       "op": "box_put",
       "stack_out": [
         "appList#0",
@@ -5864,7 +6088,7 @@
         "i\u2082#0"
       ]
     },
-    "706": {
+    "734": {
       "block": "remove_after_if_else@7",
       "stack_in": [
         "appList#0",
@@ -5906,7 +6130,7 @@
         "asset#0 (copy)"
       ]
     },
-    "708": {
+    "736": {
       "op": "bytec 4 // 0x0000000000000000",
       "defined_out": [
         "0x0000000000000000",
@@ -5932,7 +6156,7 @@
         "0x0000000000000000"
       ]
     },
-    "710": {
+    "738": {
       "op": "!=",
       "defined_out": [
         "tmp%10#0"
@@ -5956,7 +6180,7 @@
         "tmp%10#0"
       ]
     },
-    "711": {
+    "739": {
       "op": "bz remove_after_if_else@14",
       "stack_out": [
         "appList#0",
@@ -5976,7 +6200,7 @@
         "i\u2082#0"
       ]
     },
-    "714": {
+    "742": {
       "op": "bytec_1 // \"trusted_asa\"",
       "defined_out": [
         "\"trusted_asa\""
@@ -6000,7 +6224,7 @@
         "\"trusted_asa\""
       ]
     },
-    "715": {
+    "743": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_asa\"",
@@ -6026,7 +6250,7 @@
         "tmp%11#0"
       ]
     },
-    "717": {
+    "745": {
       "op": "concat",
       "defined_out": [
         "tmp%12#0"
@@ -6050,7 +6274,7 @@
         "tmp%12#0"
       ]
     },
-    "718": {
+    "746": {
       "op": "box_get",
       "defined_out": [
         "assetList#0",
@@ -6076,7 +6300,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "719": {
+    "747": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -6098,7 +6322,7 @@
         "assetList#0"
       ]
     },
-    "720": {
+    "748": {
       "op": "frame_bury 1",
       "defined_out": [
         "assetList#0",
@@ -6123,7 +6347,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "722": {
+    "750": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -6144,7 +6368,7 @@
         "i\u2082#0"
       ]
     },
-    "723": {
+    "751": {
       "op": "bytec_3 // 0x0000",
       "defined_out": [
         "assetList#0",
@@ -6169,7 +6393,7 @@
         "newList\u2081#0"
       ]
     },
-    "724": {
+    "752": {
       "op": "frame_bury 4",
       "defined_out": [
         "assetList#0",
@@ -6193,7 +6417,7 @@
         "i\u2082#0"
       ]
     },
-    "726": {
+    "754": {
       "op": "intc_0 // 0",
       "defined_out": [
         "assetList#0",
@@ -6219,7 +6443,7 @@
         "i\u2081#0"
       ]
     },
-    "727": {
+    "755": {
       "op": "frame_bury 13",
       "stack_out": [
         "appList#0",
@@ -6239,7 +6463,7 @@
         "i\u2082#0"
       ]
     },
-    "729": {
+    "757": {
       "block": "remove_while_top@9",
       "stack_in": [
         "appList#0",
@@ -6281,7 +6505,7 @@
         "assetList#0"
       ]
     },
-    "731": {
+    "759": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -6307,7 +6531,7 @@
         "0"
       ]
     },
-    "732": {
+    "760": {
       "op": "extract_uint16",
       "defined_out": [
         "assetList#0",
@@ -6332,7 +6556,7 @@
         "tmp%13#0"
       ]
     },
-    "733": {
+    "761": {
       "op": "frame_dig 13",
       "defined_out": [
         "assetList#0",
@@ -6359,7 +6583,7 @@
         "i\u2081#0"
       ]
     },
-    "735": {
+    "763": {
       "op": ">",
       "defined_out": [
         "assetList#0",
@@ -6385,7 +6609,7 @@
         "tmp%14#0"
       ]
     },
-    "736": {
+    "764": {
       "op": "bz remove_after_while@13",
       "stack_out": [
         "appList#0",
@@ -6405,7 +6629,7 @@
         "i\u2082#0"
       ]
     },
-    "739": {
+    "767": {
       "op": "frame_dig 1",
       "stack_out": [
         "appList#0",
@@ -6426,7 +6650,7 @@
         "assetList#0"
       ]
     },
-    "741": {
+    "769": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%2#0",
@@ -6452,7 +6676,7 @@
         "array_head_and_tail%2#0"
       ]
     },
-    "744": {
+    "772": {
       "op": "frame_dig 13",
       "stack_out": [
         "appList#0",
@@ -6474,7 +6698,7 @@
         "i\u2081#0"
       ]
     },
-    "746": {
+    "774": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -6503,7 +6727,7 @@
         "8"
       ]
     },
-    "747": {
+    "775": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%2#0",
@@ -6531,7 +6755,7 @@
         "item_offset%2#0"
       ]
     },
-    "748": {
+    "776": {
       "op": "intc_2 // 8",
       "stack_out": [
         "appList#0",
@@ -6554,7 +6778,7 @@
         "8"
       ]
     },
-    "749": {
+    "777": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -6581,7 +6805,7 @@
         "tmp%15#0"
       ]
     },
-    "750": {
+    "778": {
       "op": "dup",
       "stack_out": [
         "appList#0",
@@ -6603,7 +6827,7 @@
         "tmp%15#0"
       ]
     },
-    "751": {
+    "779": {
       "op": "frame_bury 9",
       "defined_out": [
         "assetList#0",
@@ -6629,7 +6853,7 @@
         "tmp%15#0"
       ]
     },
-    "753": {
+    "781": {
       "op": "frame_dig -2",
       "defined_out": [
         "asset#0 (copy)",
@@ -6657,7 +6881,7 @@
         "asset#0 (copy)"
       ]
     },
-    "755": {
+    "783": {
       "op": "!=",
       "defined_out": [
         "assetList#0",
@@ -6684,7 +6908,7 @@
         "tmp%16#0"
       ]
     },
-    "756": {
+    "784": {
       "op": "frame_dig 4",
       "defined_out": [
         "assetList#0",
@@ -6713,7 +6937,7 @@
         "newList\u2081#9"
       ]
     },
-    "758": {
+    "786": {
       "op": "frame_bury 5",
       "defined_out": [
         "assetList#0",
@@ -6741,7 +6965,7 @@
         "tmp%16#0"
       ]
     },
-    "760": {
+    "788": {
       "op": "bz remove_after_if_else@12",
       "stack_out": [
         "appList#0",
@@ -6761,7 +6985,7 @@
         "i\u2082#0"
       ]
     },
-    "763": {
+    "791": {
       "op": "frame_dig 4",
       "defined_out": [
         "assetList#0",
@@ -6789,7 +7013,7 @@
         "newList\u2081#0"
       ]
     },
-    "765": {
+    "793": {
       "op": "extract 2 0",
       "defined_out": [
         "assetList#0",
@@ -6818,7 +7042,7 @@
         "expr_value_trimmed%1#0"
       ]
     },
-    "768": {
+    "796": {
       "op": "frame_dig 9",
       "stack_out": [
         "appList#0",
@@ -6840,7 +7064,7 @@
         "tmp%15#0"
       ]
     },
-    "770": {
+    "798": {
       "op": "concat",
       "defined_out": [
         "assetList#0",
@@ -6869,7 +7093,7 @@
         "concatenated%1#0"
       ]
     },
-    "771": {
+    "799": {
       "op": "dup",
       "defined_out": [
         "assetList#0",
@@ -6900,7 +7124,7 @@
         "concatenated%1#0 (copy)"
       ]
     },
-    "772": {
+    "800": {
       "op": "len",
       "defined_out": [
         "assetList#0",
@@ -6931,7 +7155,7 @@
         "byte_len%1#0"
       ]
     },
-    "773": {
+    "801": {
       "op": "intc_2 // 8",
       "stack_out": [
         "appList#0",
@@ -6954,7 +7178,7 @@
         "8"
       ]
     },
-    "774": {
+    "802": {
       "op": "/",
       "defined_out": [
         "assetList#0",
@@ -6985,7 +7209,7 @@
         "len_%1#0"
       ]
     },
-    "775": {
+    "803": {
       "op": "itob",
       "defined_out": [
         "as_bytes%1#0",
@@ -7016,7 +7240,7 @@
         "as_bytes%1#0"
       ]
     },
-    "776": {
+    "804": {
       "op": "extract 6 2",
       "defined_out": [
         "assetList#0",
@@ -7047,7 +7271,7 @@
         "len_16_bit%1#0"
       ]
     },
-    "779": {
+    "807": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -7069,7 +7293,7 @@
         "concatenated%1#0"
       ]
     },
-    "780": {
+    "808": {
       "op": "concat",
       "stack_out": [
         "appList#0",
@@ -7090,7 +7314,7 @@
         "newList\u2081#9"
       ]
     },
-    "781": {
+    "809": {
       "op": "frame_bury 5",
       "stack_out": [
         "appList#0",
@@ -7110,7 +7334,7 @@
         "i\u2082#0"
       ]
     },
-    "783": {
+    "811": {
       "block": "remove_after_if_else@12",
       "stack_in": [
         "appList#0",
@@ -7152,7 +7376,7 @@
         "newList\u2081#0"
       ]
     },
-    "785": {
+    "813": {
       "op": "frame_bury 4",
       "defined_out": [
         "newList\u2081#0"
@@ -7175,7 +7399,7 @@
         "i\u2082#0"
       ]
     },
-    "787": {
+    "815": {
       "op": "frame_dig 13",
       "defined_out": [
         "i\u2081#0",
@@ -7200,7 +7424,7 @@
         "i\u2081#0"
       ]
     },
-    "789": {
+    "817": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -7227,7 +7451,7 @@
         "1"
       ]
     },
-    "790": {
+    "818": {
       "op": "+",
       "stack_out": [
         "appList#0",
@@ -7248,7 +7472,7 @@
         "i\u2081#0"
       ]
     },
-    "791": {
+    "819": {
       "op": "frame_bury 13",
       "stack_out": [
         "appList#0",
@@ -7268,10 +7492,10 @@
         "i\u2082#0"
       ]
     },
-    "793": {
+    "821": {
       "op": "b remove_while_top@9"
     },
-    "796": {
+    "824": {
       "block": "remove_after_while@13",
       "stack_in": [
         "appList#0",
@@ -7313,7 +7537,7 @@
         "\"trusted_asa\""
       ]
     },
-    "797": {
+    "825": {
       "op": "txn Sender",
       "defined_out": [
         "\"trusted_asa\"",
@@ -7339,7 +7563,7 @@
         "tmp%18#0"
       ]
     },
-    "799": {
+    "827": {
       "op": "concat",
       "defined_out": [
         "tmp%19#0"
@@ -7363,7 +7587,7 @@
         "tmp%19#0"
       ]
     },
-    "800": {
+    "828": {
       "op": "dup",
       "defined_out": [
         "tmp%19#0",
@@ -7389,7 +7613,7 @@
         "tmp%19#0 (copy)"
       ]
     },
-    "801": {
+    "829": {
       "op": "box_del",
       "defined_out": [
         "tmp%19#0",
@@ -7415,7 +7639,7 @@
         "{box_del}"
       ]
     },
-    "802": {
+    "830": {
       "op": "pop",
       "stack_out": [
         "appList#0",
@@ -7436,7 +7660,7 @@
         "tmp%19#0"
       ]
     },
-    "803": {
+    "831": {
       "op": "frame_dig 4",
       "defined_out": [
         "newList\u2081#0",
@@ -7462,7 +7686,7 @@
         "newList\u2081#0"
       ]
     },
-    "805": {
+    "833": {
       "op": "box_put",
       "stack_out": [
         "appList#0",
@@ -7482,7 +7706,7 @@
         "i\u2082#0"
       ]
     },
-    "806": {
+    "834": {
       "block": "remove_after_if_else@14",
       "stack_in": [
         "appList#0",
@@ -7524,7 +7748,7 @@
         "peer#0 (copy)"
       ]
     },
-    "808": {
+    "836": {
       "op": "global ZeroAddress",
       "defined_out": [
         "peer#0 (copy)",
@@ -7550,7 +7774,7 @@
         "tmp%20#0"
       ]
     },
-    "810": {
+    "838": {
       "op": "!=",
       "defined_out": [
         "tmp%21#0"
@@ -7574,7 +7798,7 @@
         "tmp%21#0"
       ]
     },
-    "811": {
+    "839": {
       "op": "bz remove_after_if_else@21",
       "stack_out": [
         "appList#0",
@@ -7594,7 +7818,7 @@
         "i\u2082#0"
       ]
     },
-    "814": {
+    "842": {
       "op": "bytec_2 // \"adjacency_list\"",
       "defined_out": [
         "\"adjacency_list\""
@@ -7618,7 +7842,7 @@
         "\"adjacency_list\""
       ]
     },
-    "815": {
+    "843": {
       "op": "txn Sender",
       "defined_out": [
         "\"adjacency_list\"",
@@ -7644,7 +7868,7 @@
         "tmp%22#0"
       ]
     },
-    "817": {
+    "845": {
       "op": "concat",
       "defined_out": [
         "tmp%23#0"
@@ -7668,7 +7892,7 @@
         "tmp%23#0"
       ]
     },
-    "818": {
+    "846": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%2#0",
@@ -7694,7 +7918,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "819": {
+    "847": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -7716,7 +7940,7 @@
         "peerList#0"
       ]
     },
-    "820": {
+    "848": {
       "op": "frame_bury 8",
       "defined_out": [
         "maybe_exists%2#0",
@@ -7741,7 +7965,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "822": {
+    "850": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -7762,7 +7986,7 @@
         "i\u2082#0"
       ]
     },
-    "823": {
+    "851": {
       "op": "bytec_3 // 0x0000",
       "defined_out": [
         "newList\u2082#0",
@@ -7787,7 +8011,7 @@
         "newList\u2082#0"
       ]
     },
-    "824": {
+    "852": {
       "op": "frame_bury 6",
       "defined_out": [
         "newList\u2082#0",
@@ -7811,7 +8035,7 @@
         "i\u2082#0"
       ]
     },
-    "826": {
+    "854": {
       "op": "intc_0 // 0",
       "defined_out": [
         "i\u2082#0",
@@ -7837,7 +8061,7 @@
         "i\u2082#0"
       ]
     },
-    "827": {
+    "855": {
       "op": "frame_bury 14",
       "stack_out": [
         "appList#0",
@@ -7857,7 +8081,7 @@
         "i\u2082#0"
       ]
     },
-    "829": {
+    "857": {
       "block": "remove_while_top@16",
       "stack_in": [
         "appList#0",
@@ -7899,7 +8123,7 @@
         "peerList#0"
       ]
     },
-    "831": {
+    "859": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -7925,7 +8149,7 @@
         "0"
       ]
     },
-    "832": {
+    "860": {
       "op": "extract_uint16",
       "defined_out": [
         "peerList#0",
@@ -7950,7 +8174,7 @@
         "tmp%24#0"
       ]
     },
-    "833": {
+    "861": {
       "op": "frame_dig 14",
       "defined_out": [
         "i\u2082#0",
@@ -7977,7 +8201,7 @@
         "i\u2082#0"
       ]
     },
-    "835": {
+    "863": {
       "op": ">",
       "defined_out": [
         "i\u2082#0",
@@ -8003,7 +8227,7 @@
         "tmp%25#0"
       ]
     },
-    "836": {
+    "864": {
       "op": "bz remove_after_while@20",
       "stack_out": [
         "appList#0",
@@ -8023,7 +8247,7 @@
         "i\u2082#0"
       ]
     },
-    "839": {
+    "867": {
       "op": "frame_dig 8",
       "stack_out": [
         "appList#0",
@@ -8044,7 +8268,7 @@
         "peerList#0"
       ]
     },
-    "841": {
+    "869": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%4#0",
@@ -8070,7 +8294,7 @@
         "array_head_and_tail%4#0"
       ]
     },
-    "844": {
+    "872": {
       "op": "frame_dig 14",
       "stack_out": [
         "appList#0",
@@ -8092,7 +8316,7 @@
         "i\u2082#0"
       ]
     },
-    "846": {
+    "874": {
       "op": "intc_3 // 32",
       "defined_out": [
         "32",
@@ -8121,7 +8345,7 @@
         "32"
       ]
     },
-    "847": {
+    "875": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%4#0",
@@ -8149,7 +8373,7 @@
         "item_offset%4#0"
       ]
     },
-    "848": {
+    "876": {
       "op": "intc_3 // 32",
       "stack_out": [
         "appList#0",
@@ -8172,7 +8396,7 @@
         "32"
       ]
     },
-    "849": {
+    "877": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -8199,7 +8423,7 @@
         "tmp%26#0"
       ]
     },
-    "850": {
+    "878": {
       "op": "dup",
       "stack_out": [
         "appList#0",
@@ -8221,7 +8445,7 @@
         "tmp%26#0"
       ]
     },
-    "851": {
+    "879": {
       "op": "frame_bury 10",
       "defined_out": [
         "i\u2082#0",
@@ -8247,7 +8471,7 @@
         "tmp%26#0"
       ]
     },
-    "853": {
+    "881": {
       "op": "frame_dig -1",
       "defined_out": [
         "i\u2082#0",
@@ -8275,7 +8499,7 @@
         "peer#0 (copy)"
       ]
     },
-    "855": {
+    "883": {
       "op": "!=",
       "defined_out": [
         "i\u2082#0",
@@ -8302,7 +8526,7 @@
         "tmp%27#0"
       ]
     },
-    "856": {
+    "884": {
       "op": "frame_dig 6",
       "defined_out": [
         "i\u2082#0",
@@ -8331,7 +8555,7 @@
         "newList\u2082#9"
       ]
     },
-    "858": {
+    "886": {
       "op": "frame_bury 7",
       "defined_out": [
         "i\u2082#0",
@@ -8359,7 +8583,7 @@
         "tmp%27#0"
       ]
     },
-    "860": {
+    "888": {
       "op": "bz remove_after_if_else@19",
       "stack_out": [
         "appList#0",
@@ -8379,7 +8603,7 @@
         "i\u2082#0"
       ]
     },
-    "863": {
+    "891": {
       "op": "frame_dig 6",
       "defined_out": [
         "i\u2082#0",
@@ -8407,7 +8631,7 @@
         "newList\u2082#0"
       ]
     },
-    "865": {
+    "893": {
       "op": "extract 2 0",
       "defined_out": [
         "expr_value_trimmed%2#0",
@@ -8436,7 +8660,7 @@
         "expr_value_trimmed%2#0"
       ]
     },
-    "868": {
+    "896": {
       "op": "frame_dig 10",
       "stack_out": [
         "appList#0",
@@ -8458,7 +8682,7 @@
         "tmp%26#0"
       ]
     },
-    "870": {
+    "898": {
       "op": "concat",
       "defined_out": [
         "concatenated%2#0",
@@ -8487,7 +8711,7 @@
         "concatenated%2#0"
       ]
     },
-    "871": {
+    "899": {
       "op": "dup",
       "defined_out": [
         "concatenated%2#0",
@@ -8518,7 +8742,7 @@
         "concatenated%2#0 (copy)"
       ]
     },
-    "872": {
+    "900": {
       "op": "len",
       "defined_out": [
         "byte_len%2#0",
@@ -8549,7 +8773,7 @@
         "byte_len%2#0"
       ]
     },
-    "873": {
+    "901": {
       "op": "intc_3 // 32",
       "stack_out": [
         "appList#0",
@@ -8572,7 +8796,7 @@
         "32"
       ]
     },
-    "874": {
+    "902": {
       "op": "/",
       "defined_out": [
         "concatenated%2#0",
@@ -8603,7 +8827,7 @@
         "len_%2#0"
       ]
     },
-    "875": {
+    "903": {
       "op": "itob",
       "defined_out": [
         "as_bytes%2#0",
@@ -8634,7 +8858,7 @@
         "as_bytes%2#0"
       ]
     },
-    "876": {
+    "904": {
       "op": "extract 6 2",
       "defined_out": [
         "concatenated%2#0",
@@ -8665,7 +8889,7 @@
         "len_16_bit%2#0"
       ]
     },
-    "879": {
+    "907": {
       "op": "swap",
       "stack_out": [
         "appList#0",
@@ -8687,7 +8911,7 @@
         "concatenated%2#0"
       ]
     },
-    "880": {
+    "908": {
       "op": "concat",
       "stack_out": [
         "appList#0",
@@ -8708,7 +8932,7 @@
         "newList\u2082#9"
       ]
     },
-    "881": {
+    "909": {
       "op": "frame_bury 7",
       "stack_out": [
         "appList#0",
@@ -8728,7 +8952,7 @@
         "i\u2082#0"
       ]
     },
-    "883": {
+    "911": {
       "block": "remove_after_if_else@19",
       "stack_in": [
         "appList#0",
@@ -8770,7 +8994,7 @@
         "newList\u2082#0"
       ]
     },
-    "885": {
+    "913": {
       "op": "frame_bury 6",
       "defined_out": [
         "newList\u2082#0"
@@ -8793,7 +9017,7 @@
         "i\u2082#0"
       ]
     },
-    "887": {
+    "915": {
       "op": "frame_dig 14",
       "defined_out": [
         "i\u2082#0",
@@ -8818,7 +9042,7 @@
         "i\u2082#0"
       ]
     },
-    "889": {
+    "917": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -8845,7 +9069,7 @@
         "1"
       ]
     },
-    "890": {
+    "918": {
       "op": "+",
       "stack_out": [
         "appList#0",
@@ -8866,7 +9090,7 @@
         "i\u2082#0"
       ]
     },
-    "891": {
+    "919": {
       "op": "frame_bury 14",
       "stack_out": [
         "appList#0",
@@ -8886,10 +9110,10 @@
         "i\u2082#0"
       ]
     },
-    "893": {
+    "921": {
       "op": "b remove_while_top@16"
     },
-    "896": {
+    "924": {
       "block": "remove_after_while@20",
       "stack_in": [
         "appList#0",
@@ -8931,7 +9155,7 @@
         "\"adjacency_list\""
       ]
     },
-    "897": {
+    "925": {
       "op": "txn Sender",
       "defined_out": [
         "\"adjacency_list\"",
@@ -8957,7 +9181,7 @@
         "tmp%29#0"
       ]
     },
-    "899": {
+    "927": {
       "op": "concat",
       "defined_out": [
         "tmp%30#0"
@@ -8981,7 +9205,7 @@
         "tmp%30#0"
       ]
     },
-    "900": {
+    "928": {
       "op": "dup",
       "defined_out": [
         "tmp%30#0",
@@ -9007,7 +9231,7 @@
         "tmp%30#0 (copy)"
       ]
     },
-    "901": {
+    "929": {
       "op": "box_del",
       "defined_out": [
         "tmp%30#0",
@@ -9033,7 +9257,7 @@
         "{box_del}"
       ]
     },
-    "902": {
+    "930": {
       "op": "pop",
       "stack_out": [
         "appList#0",
@@ -9054,7 +9278,7 @@
         "tmp%30#0"
       ]
     },
-    "903": {
+    "931": {
       "op": "frame_dig 6",
       "defined_out": [
         "newList\u2082#0",
@@ -9080,7 +9304,7 @@
         "newList\u2082#0"
       ]
     },
-    "905": {
+    "933": {
       "op": "box_put",
       "stack_out": [
         "appList#0",
@@ -9100,7 +9324,7 @@
         "i\u2082#0"
       ]
     },
-    "906": {
+    "934": {
       "block": "remove_after_if_else@21",
       "stack_in": [
         "appList#0",
@@ -9122,7 +9346,7 @@
       "retsub": true,
       "op": "retsub"
     },
-    "907": {
+    "935": {
       "subroutine": "smart_contracts/wetrust/contract.algo.ts::Wetrust.getTrustedApp",
       "params": {
         "account#0": "bytes"
@@ -9131,7 +9355,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "910": {
+    "938": {
       "op": "bytec_0 // \"trusted_app\"",
       "defined_out": [
         "\"trusted_app\""
@@ -9140,7 +9364,7 @@
         "\"trusted_app\""
       ]
     },
-    "911": {
+    "939": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"trusted_app\"",
@@ -9151,7 +9375,7 @@
         "account#0 (copy)"
       ]
     },
-    "913": {
+    "941": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -9160,7 +9384,7 @@
         "tmp%0#0"
       ]
     },
-    "914": {
+    "942": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -9171,18 +9395,18 @@
         "maybe_exists%0#0"
       ]
     },
-    "915": {
+    "943": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "916": {
+    "944": {
       "retsub": true,
       "op": "retsub"
     },
-    "917": {
+    "945": {
       "subroutine": "smart_contracts/wetrust/contract.algo.ts::Wetrust.getTrustedASA",
       "params": {
         "account#0": "bytes"
@@ -9191,7 +9415,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "920": {
+    "948": {
       "op": "bytec_1 // \"trusted_asa\"",
       "defined_out": [
         "\"trusted_asa\""
@@ -9200,7 +9424,7 @@
         "\"trusted_asa\""
       ]
     },
-    "921": {
+    "949": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"trusted_asa\"",
@@ -9211,7 +9435,7 @@
         "account#0 (copy)"
       ]
     },
-    "923": {
+    "951": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -9220,7 +9444,7 @@
         "tmp%0#0"
       ]
     },
-    "924": {
+    "952": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -9231,18 +9455,18 @@
         "maybe_exists%0#0"
       ]
     },
-    "925": {
+    "953": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "926": {
+    "954": {
       "retsub": true,
       "op": "retsub"
     },
-    "927": {
+    "955": {
       "subroutine": "smart_contracts/wetrust/contract.algo.ts::Wetrust.getAdjacencyList",
       "params": {
         "account#0": "bytes"
@@ -9251,7 +9475,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "930": {
+    "958": {
       "op": "bytec_2 // \"adjacency_list\"",
       "defined_out": [
         "\"adjacency_list\""
@@ -9260,7 +9484,7 @@
         "\"adjacency_list\""
       ]
     },
-    "931": {
+    "959": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"adjacency_list\"",
@@ -9271,7 +9495,7 @@
         "account#0 (copy)"
       ]
     },
-    "933": {
+    "961": {
       "op": "concat",
       "defined_out": [
         "tmp%0#0"
@@ -9280,7 +9504,7 @@
         "tmp%0#0"
       ]
     },
-    "934": {
+    "962": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -9291,14 +9515,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "935": {
+    "963": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "936": {
+    "964": {
       "retsub": true,
       "op": "retsub"
     }

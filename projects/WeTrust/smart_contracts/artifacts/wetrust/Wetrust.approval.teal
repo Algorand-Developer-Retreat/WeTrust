@@ -5,7 +5,7 @@
 main:
     intcblock 0 1 8 32
     bytecblock "trusted_app" "trusted_asa" "adjacency_list" 0x0000 0x0000000000000000 0x151f7c75
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txn NumAppArgs
     bz main_bare_routing@11
@@ -14,25 +14,25 @@ main:
     match main_init_route@3 main_add_route@4 main_remove_route@5 main_getTrustedApp_route@6 main_getTrustedASA_route@7 main_getAdjacencyList_route@8
 
 main_after_if_else@15:
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     intc_0 // 0
     return
 
 main_getAdjacencyList_route@8:
-    // smart_contracts/wetrust/contract.algo.ts:123
+    // smart_contracts/wetrust/contract.algo.ts:135
     // @abimethod({ readonly: true })
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txna ApplicationArgs 1
     btoi
     txnas Accounts
-    // smart_contracts/wetrust/contract.algo.ts:123
+    // smart_contracts/wetrust/contract.algo.ts:135
     // @abimethod({ readonly: true })
     callsub getAdjacencyList
     bytec 5 // 0x151f7c75
@@ -43,19 +43,19 @@ main_getAdjacencyList_route@8:
     return
 
 main_getTrustedASA_route@7:
-    // smart_contracts/wetrust/contract.algo.ts:118
+    // smart_contracts/wetrust/contract.algo.ts:130
     // @abimethod({ readonly: true })
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txna ApplicationArgs 1
     btoi
     txnas Accounts
-    // smart_contracts/wetrust/contract.algo.ts:118
+    // smart_contracts/wetrust/contract.algo.ts:130
     // @abimethod({ readonly: true })
     callsub getTrustedASA
     bytec 5 // 0x151f7c75
@@ -66,19 +66,19 @@ main_getTrustedASA_route@7:
     return
 
 main_getTrustedApp_route@6:
-    // smart_contracts/wetrust/contract.algo.ts:113
+    // smart_contracts/wetrust/contract.algo.ts:125
     // @abimethod({ readonly: true })
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txna ApplicationArgs 1
     btoi
     txnas Accounts
-    // smart_contracts/wetrust/contract.algo.ts:113
+    // smart_contracts/wetrust/contract.algo.ts:125
     // @abimethod({ readonly: true })
     callsub getTrustedApp
     bytec 5 // 0x151f7c75
@@ -89,52 +89,52 @@ main_getTrustedApp_route@6:
     return
 
 main_remove_route@5:
-    // smart_contracts/wetrust/contract.algo.ts:78
+    // smart_contracts/wetrust/contract.algo.ts:90
     // remove(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txna ApplicationArgs 1
     txna ApplicationArgs 2
     txna ApplicationArgs 3
-    // smart_contracts/wetrust/contract.algo.ts:78
+    // smart_contracts/wetrust/contract.algo.ts:90
     // remove(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     callsub remove
     intc_1 // 1
     return
 
 main_add_route@4:
-    // smart_contracts/wetrust/contract.algo.ts:39
+    // smart_contracts/wetrust/contract.algo.ts:45
     // add(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txna ApplicationArgs 1
     txna ApplicationArgs 2
     txna ApplicationArgs 3
-    // smart_contracts/wetrust/contract.algo.ts:39
+    // smart_contracts/wetrust/contract.algo.ts:45
     // add(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     callsub add
     intc_1 // 1
     return
 
 main_init_route@3:
-    // smart_contracts/wetrust/contract.algo.ts:26
+    // smart_contracts/wetrust/contract.algo.ts:28
     // init(payMbr: gtxn.PaymentTxn): void {
     txn OnCompletion
     !
     assert // OnCompletion is not NoOp
     txn ApplicationID
     assert // can only call when not creating
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txn GroupIndex
     intc_1 // 1
@@ -144,14 +144,14 @@ main_init_route@3:
     intc_1 // pay
     ==
     assert // transaction type is pay
-    // smart_contracts/wetrust/contract.algo.ts:26
+    // smart_contracts/wetrust/contract.algo.ts:28
     // init(payMbr: gtxn.PaymentTxn): void {
     callsub init
     intc_1 // 1
     return
 
 main_bare_routing@11:
-    // smart_contracts/wetrust/contract.algo.ts:19
+    // smart_contracts/wetrust/contract.algo.ts:21
     // export class Wetrust extends Contract {
     txn OnCompletion
     bnz main_after_if_else@15
@@ -164,47 +164,95 @@ main_bare_routing@11:
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.init(payMbr: uint64) -> void:
 init:
-    // smart_contracts/wetrust/contract.algo.ts:26
+    // smart_contracts/wetrust/contract.algo.ts:28
     // init(payMbr: gtxn.PaymentTxn): void {
     proto 1 0
-    // smart_contracts/wetrust/contract.algo.ts:27-30
+    // smart_contracts/wetrust/contract.algo.ts:30-33
     // assertMatch(payMbr, {
     //   receiver: Global.currentApplicationAddress,
-    //   amount: { greaterThanEq: 104500 },
+    //   amount: { greaterThanEq: mbrToCover },
     // });
     frame_dig -1
     gtxns Receiver
-    // smart_contracts/wetrust/contract.algo.ts:28
+    // smart_contracts/wetrust/contract.algo.ts:31
     // receiver: Global.currentApplicationAddress,
     global CurrentApplicationAddress
-    // smart_contracts/wetrust/contract.algo.ts:27-30
+    // smart_contracts/wetrust/contract.algo.ts:30-33
     // assertMatch(payMbr, {
     //   receiver: Global.currentApplicationAddress,
-    //   amount: { greaterThanEq: 104500 },
+    //   amount: { greaterThanEq: mbrToCover },
     // });
     ==
     bz init_bool_false@3
     frame_dig -1
     gtxns Amount
     // smart_contracts/wetrust/contract.algo.ts:29
-    // amount: { greaterThanEq: 104500 },
-    pushint 104500 // 104500
-    // smart_contracts/wetrust/contract.algo.ts:27-30
+    // const mbrToCover: uint64 = this.getBoxMbr(UINT64_BYTES_SIZE) + this.getBoxMbr(UINT64_BYTES_SIZE) + this.getBoxMbr(ADDRESS_BYTES_SIZE);
+    pushint 26700 // 26700
+    // smart_contracts/wetrust/contract.algo.ts:30-33
     // assertMatch(payMbr, {
     //   receiver: Global.currentApplicationAddress,
-    //   amount: { greaterThanEq: 104500 },
+    //   amount: { greaterThanEq: mbrToCover },
     // });
     >=
     bz init_bool_false@3
     intc_1 // 1
 
 init_bool_merge@4:
-    // smart_contracts/wetrust/contract.algo.ts:27-30
+    // smart_contracts/wetrust/contract.algo.ts:30-33
     // assertMatch(payMbr, {
     //   receiver: Global.currentApplicationAddress,
-    //   amount: { greaterThanEq: 104500 },
+    //   amount: { greaterThanEq: mbrToCover },
     // });
     assert // assert target is match for conditions
+    // smart_contracts/wetrust/contract.algo.ts:22
+    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
+    bytec_0 // "trusted_app"
+    // smart_contracts/wetrust/contract.algo.ts:34
+    // this.trustedApp(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:22
+    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:34
+    // this.trustedApp(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
+    dup
+    box_del
+    pop
+    bytec_3 // 0x0000
+    box_put
+    // smart_contracts/wetrust/contract.algo.ts:24
+    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
+    bytec_1 // "trusted_asa"
+    // smart_contracts/wetrust/contract.algo.ts:35
+    // this.trustedASA(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:24
+    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:35
+    // this.trustedASA(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
+    dup
+    box_del
+    pop
+    bytec_3 // 0x0000
+    box_put
+    // smart_contracts/wetrust/contract.algo.ts:26
+    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
+    bytec_2 // "adjacency_list"
+    // smart_contracts/wetrust/contract.algo.ts:36
+    // this.adjacencyList(Txn.sender).value = new arc4.DynamicArray<arc4.Address>();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:26
+    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:36
+    // this.adjacencyList(Txn.sender).value = new arc4.DynamicArray<arc4.Address>();
+    dup
+    box_del
+    pop
+    bytec_3 // 0x0000
+    box_put
     retsub
 
 init_bool_false@3:
@@ -214,145 +262,90 @@ init_bool_false@3:
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.add(app: bytes, asset: bytes, peer: bytes) -> void:
 add:
-    // smart_contracts/wetrust/contract.algo.ts:39
+    // smart_contracts/wetrust/contract.algo.ts:45
     // add(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     proto 3 0
     intc_0 // 0
     dupn 2
     pushbytes ""
     dupn 2
-    // smart_contracts/wetrust/contract.algo.ts:20
-    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
-    bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:40
-    // if (!this.trustedApp(Txn.sender).exists) {
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
-    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:40
-    // if (!this.trustedApp(Txn.sender).exists) {
-    box_len
-    bury 1
-    bnz add_after_if_else@2
-    // smart_contracts/wetrust/contract.algo.ts:20
-    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
-    bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:41
-    // this.trustedApp(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
-    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:41
-    // this.trustedApp(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    dup
-    box_del
-    pop
-    bytec_3 // 0x0000
-    box_put
-
-add_after_if_else@2:
-    // smart_contracts/wetrust/contract.algo.ts:22
-    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
-    bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:43
-    // if (!this.trustedASA(Txn.sender).exists) {
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
-    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:43
-    // if (!this.trustedASA(Txn.sender).exists) {
-    box_len
-    bury 1
-    bnz add_after_if_else@4
-    // smart_contracts/wetrust/contract.algo.ts:22
-    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
-    bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:44
-    // this.trustedASA(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
-    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:44
-    // this.trustedASA(Txn.sender).value = new arc4.DynamicArray<arc4.UintN64>();
-    dup
-    box_del
-    pop
-    bytec_3 // 0x0000
-    box_put
-
-add_after_if_else@4:
-    // smart_contracts/wetrust/contract.algo.ts:24
-    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
-    bytec_2 // "adjacency_list"
     // smart_contracts/wetrust/contract.algo.ts:46
-    // if (!this.adjacencyList(Txn.sender).exists) {
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
-    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:46
-    // if (!this.adjacencyList(Txn.sender).exists) {
-    box_len
-    bury 1
-    bnz add_after_if_else@6
-    // smart_contracts/wetrust/contract.algo.ts:24
-    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
-    bytec_2 // "adjacency_list"
-    // smart_contracts/wetrust/contract.algo.ts:47
-    // this.adjacencyList(Txn.sender).value = new arc4.DynamicArray<arc4.Address>();
-    txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
-    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
-    concat
-    // smart_contracts/wetrust/contract.algo.ts:47
-    // this.adjacencyList(Txn.sender).value = new arc4.DynamicArray<arc4.Address>();
-    dup
-    box_del
-    pop
-    bytec_3 // 0x0000
-    box_put
-
-add_after_if_else@6:
-    // smart_contracts/wetrust/contract.algo.ts:50
     // if (app !== new UintN64(0)) {
     frame_dig -3
     bytec 4 // 0x0000000000000000
     !=
-    bz add_after_if_else@11
-    // smart_contracts/wetrust/contract.algo.ts:20
+    bz add_after_if_else@5
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:51
-    // let trustedAppList = this.trustedApp(Txn.sender).value.copy();
+    // smart_contracts/wetrust/contract.algo.ts:47
+    // assertMatch(this.trustedApp(Txn.sender), { exists: true }, "trustedAppList should exist, call init first");
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:51
+    // smart_contracts/wetrust/contract.algo.ts:47
+    // assertMatch(this.trustedApp(Txn.sender), { exists: true }, "trustedAppList should exist, call init first");
+    box_len
+    bury 1
+    intc_1 // 1
+    ==
+    assert // trustedAppList should exist, call init first
+    // smart_contracts/wetrust/contract.algo.ts:22
+    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
+    bytec_0 // "trusted_app"
+    // smart_contracts/wetrust/contract.algo.ts:48
+    // let trustedAppList = this.trustedApp(Txn.sender).value.copy();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:22
+    // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:48
     // let trustedAppList = this.trustedApp(Txn.sender).value.copy();
     box_get
     swap
+    dup
+    cover 2
     frame_bury 2
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:52
+    // smart_contracts/wetrust/contract.algo.ts:49-55
+    // assertMatch(
+    //   trustedAppList,
+    //   {
+    //     length: { lessThanEq: this.getMaxLength(UINT64_BYTES_SIZE) },
+    //   },
+    //   "max number of App reached"
+    // );
+    intc_0 // 0
+    extract_uint16
+    // smart_contracts/wetrust/contract.algo.ts:147
+    // return MAX_BOX_SIZE / itemSize;
+    pushint 128 // 128
+    // smart_contracts/wetrust/contract.algo.ts:49-55
+    // assertMatch(
+    //   trustedAppList,
+    //   {
+    //     length: { lessThanEq: this.getMaxLength(UINT64_BYTES_SIZE) },
+    //   },
+    //   "max number of App reached"
+    // );
+    <=
+    assert // max number of App reached
+    // smart_contracts/wetrust/contract.algo.ts:56
     // for (let j: uint64 = 0; j < trustedAppList.length; j += 1) {
     intc_0 // 0
     frame_bury 3
 
-add_while_top@8:
-    // smart_contracts/wetrust/contract.algo.ts:52
+add_while_top@2:
+    // smart_contracts/wetrust/contract.algo.ts:56
     // for (let j: uint64 = 0; j < trustedAppList.length; j += 1) {
     frame_dig 2
     intc_0 // 0
     extract_uint16
     frame_dig 3
     >
-    bz add_after_while@10
-    // smart_contracts/wetrust/contract.algo.ts:53
+    bz add_after_while@4
+    // smart_contracts/wetrust/contract.algo.ts:57
     // const app = trustedAppList[j];
     frame_dig 2
     extract 2 0
@@ -365,7 +358,7 @@ add_while_top@8:
     swap
     intc_2 // 8
     extract3 // on error: Index access is out of bounds
-    // smart_contracts/wetrust/contract.algo.ts:54
+    // smart_contracts/wetrust/contract.algo.ts:58
     // trustedAppList.push(app);
     concat
     dup
@@ -377,24 +370,24 @@ add_while_top@8:
     swap
     concat
     frame_bury 2
-    // smart_contracts/wetrust/contract.algo.ts:52
+    // smart_contracts/wetrust/contract.algo.ts:56
     // for (let j: uint64 = 0; j < trustedAppList.length; j += 1) {
     intc_1 // 1
     +
     frame_bury 3
-    b add_while_top@8
+    b add_while_top@2
 
-add_after_while@10:
-    // smart_contracts/wetrust/contract.algo.ts:20
+add_after_while@4:
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:56
+    // smart_contracts/wetrust/contract.algo.ts:60
     // this.trustedApp(Txn.sender).value = trustedAppList.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:56
+    // smart_contracts/wetrust/contract.algo.ts:60
     // this.trustedApp(Txn.sender).value = trustedAppList.copy();
     dup
     box_del
@@ -402,43 +395,76 @@ add_after_while@10:
     frame_dig 2
     box_put
 
-add_after_if_else@11:
-    // smart_contracts/wetrust/contract.algo.ts:59
+add_after_if_else@5:
+    // smart_contracts/wetrust/contract.algo.ts:63
     // if (asset !== new UintN64(0)) {
     frame_dig -2
     bytec 4 // 0x0000000000000000
     !=
-    bz add_after_if_else@16
-    // smart_contracts/wetrust/contract.algo.ts:22
+    bz add_after_if_else@10
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:60
-    // let trustedASAlist = this.trustedASA(Txn.sender).value.copy();
+    // smart_contracts/wetrust/contract.algo.ts:64
+    // assertMatch(this.trustedASA(Txn.sender), { exists: true }, "trustedASAlist should exist, call init first");
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:60
+    // smart_contracts/wetrust/contract.algo.ts:64
+    // assertMatch(this.trustedASA(Txn.sender), { exists: true }, "trustedASAlist should exist, call init first");
+    box_len
+    bury 1
+    intc_1 // 1
+    ==
+    assert // trustedASAlist should exist, call init first
+    // smart_contracts/wetrust/contract.algo.ts:24
+    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
+    bytec_1 // "trusted_asa"
+    // smart_contracts/wetrust/contract.algo.ts:65
+    // let trustedASAlist = this.trustedASA(Txn.sender).value.copy();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:24
+    // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:65
     // let trustedASAlist = this.trustedASA(Txn.sender).value.copy();
     box_get
     swap
+    dup
+    cover 2
     frame_bury 1
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:61
+    // smart_contracts/wetrust/contract.algo.ts:66-68
+    // assertMatch(trustedASAlist, {
+    //   length: { lessThanEq: this.getMaxLength(UINT64_BYTES_SIZE) },
+    // });
+    intc_0 // 0
+    extract_uint16
+    // smart_contracts/wetrust/contract.algo.ts:147
+    // return MAX_BOX_SIZE / itemSize;
+    pushint 128 // 128
+    // smart_contracts/wetrust/contract.algo.ts:66-68
+    // assertMatch(trustedASAlist, {
+    //   length: { lessThanEq: this.getMaxLength(UINT64_BYTES_SIZE) },
+    // });
+    <=
+    assert // assert target is match for conditions
+    // smart_contracts/wetrust/contract.algo.ts:69
     // for (let j: uint64 = 0; j < trustedASAlist.length; j += 1) {
     intc_0 // 0
     frame_bury 4
 
-add_while_top@13:
-    // smart_contracts/wetrust/contract.algo.ts:61
+add_while_top@7:
+    // smart_contracts/wetrust/contract.algo.ts:69
     // for (let j: uint64 = 0; j < trustedASAlist.length; j += 1) {
     frame_dig 1
     intc_0 // 0
     extract_uint16
     frame_dig 4
     >
-    bz add_after_while@15
-    // smart_contracts/wetrust/contract.algo.ts:62
+    bz add_after_while@9
+    // smart_contracts/wetrust/contract.algo.ts:70
     // const asset = trustedASAlist[j];
     frame_dig 1
     extract 2 0
@@ -451,7 +477,7 @@ add_while_top@13:
     swap
     intc_2 // 8
     extract3 // on error: Index access is out of bounds
-    // smart_contracts/wetrust/contract.algo.ts:63
+    // smart_contracts/wetrust/contract.algo.ts:71
     // trustedASAlist.push(asset);
     concat
     dup
@@ -463,24 +489,24 @@ add_while_top@13:
     swap
     concat
     frame_bury 1
-    // smart_contracts/wetrust/contract.algo.ts:61
+    // smart_contracts/wetrust/contract.algo.ts:69
     // for (let j: uint64 = 0; j < trustedASAlist.length; j += 1) {
     intc_1 // 1
     +
     frame_bury 4
-    b add_while_top@13
+    b add_while_top@7
 
-add_after_while@15:
-    // smart_contracts/wetrust/contract.algo.ts:22
+add_after_while@9:
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:65
+    // smart_contracts/wetrust/contract.algo.ts:73
     // this.trustedASA(Txn.sender).value = trustedASAlist.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:65
+    // smart_contracts/wetrust/contract.algo.ts:73
     // this.trustedASA(Txn.sender).value = trustedASAlist.copy();
     dup
     box_del
@@ -488,43 +514,76 @@ add_after_while@15:
     frame_dig 1
     box_put
 
-add_after_if_else@16:
-    // smart_contracts/wetrust/contract.algo.ts:68
+add_after_if_else@10:
+    // smart_contracts/wetrust/contract.algo.ts:76
     // if (peer !== new arc4.Address(Global.zeroAddress)) {
     frame_dig -1
     global ZeroAddress
     !=
-    bz add_after_if_else@21
-    // smart_contracts/wetrust/contract.algo.ts:24
+    bz add_after_if_else@15
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     bytec_2 // "adjacency_list"
-    // smart_contracts/wetrust/contract.algo.ts:69
-    // let adjacencyList = this.adjacencyList(Txn.sender).value.copy();
+    // smart_contracts/wetrust/contract.algo.ts:77
+    // assertMatch(this.adjacencyList(Txn.sender), { exists: true }, "adjacencyList should exist, call init first");
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     concat
-    // smart_contracts/wetrust/contract.algo.ts:69
+    // smart_contracts/wetrust/contract.algo.ts:77
+    // assertMatch(this.adjacencyList(Txn.sender), { exists: true }, "adjacencyList should exist, call init first");
+    box_len
+    bury 1
+    intc_1 // 1
+    ==
+    assert // adjacencyList should exist, call init first
+    // smart_contracts/wetrust/contract.algo.ts:26
+    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
+    bytec_2 // "adjacency_list"
+    // smart_contracts/wetrust/contract.algo.ts:78
+    // let adjacencyList = this.adjacencyList(Txn.sender).value.copy();
+    txn Sender
+    // smart_contracts/wetrust/contract.algo.ts:26
+    // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
+    concat
+    // smart_contracts/wetrust/contract.algo.ts:78
     // let adjacencyList = this.adjacencyList(Txn.sender).value.copy();
     box_get
     swap
+    dup
+    cover 2
     frame_bury 0
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:70
+    // smart_contracts/wetrust/contract.algo.ts:79-81
+    // assertMatch(adjacencyList, {
+    //   length: { lessThanEq: this.getMaxLength(ADDRESS_BYTES_SIZE) },
+    // });
+    intc_0 // 0
+    extract_uint16
+    // smart_contracts/wetrust/contract.algo.ts:147
+    // return MAX_BOX_SIZE / itemSize;
+    intc_3 // 32
+    // smart_contracts/wetrust/contract.algo.ts:79-81
+    // assertMatch(adjacencyList, {
+    //   length: { lessThanEq: this.getMaxLength(ADDRESS_BYTES_SIZE) },
+    // });
+    <=
+    assert // assert target is match for conditions
+    // smart_contracts/wetrust/contract.algo.ts:82
     // for (let j: uint64 = 0; j < adjacencyList.length; j += 1) {
     intc_0 // 0
     frame_bury 5
 
-add_while_top@18:
-    // smart_contracts/wetrust/contract.algo.ts:70
+add_while_top@12:
+    // smart_contracts/wetrust/contract.algo.ts:82
     // for (let j: uint64 = 0; j < adjacencyList.length; j += 1) {
     frame_dig 0
     intc_0 // 0
     extract_uint16
     frame_dig 5
     >
-    bz add_after_while@20
-    // smart_contracts/wetrust/contract.algo.ts:71
+    bz add_after_while@14
+    // smart_contracts/wetrust/contract.algo.ts:83
     // const peer = adjacencyList[j];
     frame_dig 0
     extract 2 0
@@ -537,7 +596,7 @@ add_while_top@18:
     swap
     intc_3 // 32
     extract3 // on error: Index access is out of bounds
-    // smart_contracts/wetrust/contract.algo.ts:72
+    // smart_contracts/wetrust/contract.algo.ts:84
     // adjacencyList.push(peer);
     concat
     dup
@@ -549,24 +608,24 @@ add_while_top@18:
     swap
     concat
     frame_bury 0
-    // smart_contracts/wetrust/contract.algo.ts:70
+    // smart_contracts/wetrust/contract.algo.ts:82
     // for (let j: uint64 = 0; j < adjacencyList.length; j += 1) {
     intc_1 // 1
     +
     frame_bury 5
-    b add_while_top@18
+    b add_while_top@12
 
-add_after_while@20:
-    // smart_contracts/wetrust/contract.algo.ts:24
+add_after_while@14:
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     bytec_2 // "adjacency_list"
-    // smart_contracts/wetrust/contract.algo.ts:74
+    // smart_contracts/wetrust/contract.algo.ts:86
     // this.adjacencyList(Txn.sender).value = adjacencyList.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     concat
-    // smart_contracts/wetrust/contract.algo.ts:74
+    // smart_contracts/wetrust/contract.algo.ts:86
     // this.adjacencyList(Txn.sender).value = adjacencyList.copy();
     dup
     box_del
@@ -574,51 +633,51 @@ add_after_while@20:
     frame_dig 0
     box_put
 
-add_after_if_else@21:
+add_after_if_else@15:
     retsub
 
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.remove(app: bytes, asset: bytes, peer: bytes) -> void:
 remove:
-    // smart_contracts/wetrust/contract.algo.ts:78
+    // smart_contracts/wetrust/contract.algo.ts:90
     // remove(app: arc4.UintN64, asset: arc4.UintN64, peer: arc4.Address): void {
     proto 3 0
     intc_0 // 0
     dupn 11
     pushbytes ""
     dupn 2
-    // smart_contracts/wetrust/contract.algo.ts:79
+    // smart_contracts/wetrust/contract.algo.ts:91
     // if (app !== new arc4.UintN64(0)) {
     frame_dig -3
     bytec 4 // 0x0000000000000000
     !=
     bz remove_after_if_else@7
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:80
+    // smart_contracts/wetrust/contract.algo.ts:92
     // const appList = this.trustedApp(Txn.sender).value.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:80
+    // smart_contracts/wetrust/contract.algo.ts:92
     // const appList = this.trustedApp(Txn.sender).value.copy();
     box_get
     swap
     frame_bury 0
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:81
+    // smart_contracts/wetrust/contract.algo.ts:93
     // let newList = new arc4.DynamicArray<UintN64>();
     bytec_3 // 0x0000
     frame_bury 2
-    // smart_contracts/wetrust/contract.algo.ts:82
+    // smart_contracts/wetrust/contract.algo.ts:94
     // for (let i: uint64 = 0; i < appList.length; i += 1) {
     intc_0 // 0
     frame_bury 12
 
 remove_while_top@2:
-    // smart_contracts/wetrust/contract.algo.ts:82
+    // smart_contracts/wetrust/contract.algo.ts:94
     // for (let i: uint64 = 0; i < appList.length; i += 1) {
     frame_dig 0
     intc_0 // 0
@@ -626,7 +685,7 @@ remove_while_top@2:
     frame_dig 12
     >
     bz remove_after_while@6
-    // smart_contracts/wetrust/contract.algo.ts:83
+    // smart_contracts/wetrust/contract.algo.ts:95
     // if (appList[i] !== app) {
     frame_dig 0
     extract 2 0
@@ -642,7 +701,7 @@ remove_while_top@2:
     frame_dig 2
     frame_bury 3
     bz remove_after_if_else@5
-    // smart_contracts/wetrust/contract.algo.ts:84
+    // smart_contracts/wetrust/contract.algo.ts:96
     // newList.push(appList[i]);
     frame_dig 2
     extract 2 0
@@ -661,7 +720,7 @@ remove_while_top@2:
 remove_after_if_else@5:
     frame_dig 3
     frame_bury 2
-    // smart_contracts/wetrust/contract.algo.ts:82
+    // smart_contracts/wetrust/contract.algo.ts:94
     // for (let i: uint64 = 0; i < appList.length; i += 1) {
     frame_dig 12
     intc_1 // 1
@@ -670,16 +729,16 @@ remove_after_if_else@5:
     b remove_while_top@2
 
 remove_after_while@6:
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     bytec_0 // "trusted_app"
-    // smart_contracts/wetrust/contract.algo.ts:87
+    // smart_contracts/wetrust/contract.algo.ts:99
     // this.trustedApp(Txn.sender).value = newList.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:87
+    // smart_contracts/wetrust/contract.algo.ts:99
     // this.trustedApp(Txn.sender).value = newList.copy();
     dup
     box_del
@@ -688,38 +747,38 @@ remove_after_while@6:
     box_put
 
 remove_after_if_else@7:
-    // smart_contracts/wetrust/contract.algo.ts:89
+    // smart_contracts/wetrust/contract.algo.ts:101
     // if (asset !== new arc4.UintN64(0)) {
     frame_dig -2
     bytec 4 // 0x0000000000000000
     !=
     bz remove_after_if_else@14
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:90
+    // smart_contracts/wetrust/contract.algo.ts:102
     // const assetList = this.trustedASA(Txn.sender).value.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:90
+    // smart_contracts/wetrust/contract.algo.ts:102
     // const assetList = this.trustedASA(Txn.sender).value.copy();
     box_get
     swap
     frame_bury 1
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:91
+    // smart_contracts/wetrust/contract.algo.ts:103
     // let newList = new arc4.DynamicArray<UintN64>();
     bytec_3 // 0x0000
     frame_bury 4
-    // smart_contracts/wetrust/contract.algo.ts:92
+    // smart_contracts/wetrust/contract.algo.ts:104
     // for (let i: uint64 = 0; i < assetList.length; i += 1) {
     intc_0 // 0
     frame_bury 13
 
 remove_while_top@9:
-    // smart_contracts/wetrust/contract.algo.ts:92
+    // smart_contracts/wetrust/contract.algo.ts:104
     // for (let i: uint64 = 0; i < assetList.length; i += 1) {
     frame_dig 1
     intc_0 // 0
@@ -727,7 +786,7 @@ remove_while_top@9:
     frame_dig 13
     >
     bz remove_after_while@13
-    // smart_contracts/wetrust/contract.algo.ts:93
+    // smart_contracts/wetrust/contract.algo.ts:105
     // if (assetList[i] !== asset) {
     frame_dig 1
     extract 2 0
@@ -743,7 +802,7 @@ remove_while_top@9:
     frame_dig 4
     frame_bury 5
     bz remove_after_if_else@12
-    // smart_contracts/wetrust/contract.algo.ts:94
+    // smart_contracts/wetrust/contract.algo.ts:106
     // newList.push(assetList[i]);
     frame_dig 4
     extract 2 0
@@ -762,7 +821,7 @@ remove_while_top@9:
 remove_after_if_else@12:
     frame_dig 5
     frame_bury 4
-    // smart_contracts/wetrust/contract.algo.ts:92
+    // smart_contracts/wetrust/contract.algo.ts:104
     // for (let i: uint64 = 0; i < assetList.length; i += 1) {
     frame_dig 13
     intc_1 // 1
@@ -771,16 +830,16 @@ remove_after_if_else@12:
     b remove_while_top@9
 
 remove_after_while@13:
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     bytec_1 // "trusted_asa"
-    // smart_contracts/wetrust/contract.algo.ts:97
+    // smart_contracts/wetrust/contract.algo.ts:109
     // this.trustedASA(Txn.sender).value = newList.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     concat
-    // smart_contracts/wetrust/contract.algo.ts:97
+    // smart_contracts/wetrust/contract.algo.ts:109
     // this.trustedASA(Txn.sender).value = newList.copy();
     dup
     box_del
@@ -789,38 +848,38 @@ remove_after_while@13:
     box_put
 
 remove_after_if_else@14:
-    // smart_contracts/wetrust/contract.algo.ts:99
+    // smart_contracts/wetrust/contract.algo.ts:111
     // if (peer !== new arc4.Address(Global.zeroAddress)) {
     frame_dig -1
     global ZeroAddress
     !=
     bz remove_after_if_else@21
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     bytec_2 // "adjacency_list"
-    // smart_contracts/wetrust/contract.algo.ts:100
+    // smart_contracts/wetrust/contract.algo.ts:112
     // const peerList = this.adjacencyList(Txn.sender).value.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     concat
-    // smart_contracts/wetrust/contract.algo.ts:100
+    // smart_contracts/wetrust/contract.algo.ts:112
     // const peerList = this.adjacencyList(Txn.sender).value.copy();
     box_get
     swap
     frame_bury 8
     assert // Box must have value
-    // smart_contracts/wetrust/contract.algo.ts:101
+    // smart_contracts/wetrust/contract.algo.ts:113
     // let newList = new arc4.DynamicArray<arc4.Address>();
     bytec_3 // 0x0000
     frame_bury 6
-    // smart_contracts/wetrust/contract.algo.ts:102
+    // smart_contracts/wetrust/contract.algo.ts:114
     // for (let i: uint64 = 0; i < peerList.length; i += 1) {
     intc_0 // 0
     frame_bury 14
 
 remove_while_top@16:
-    // smart_contracts/wetrust/contract.algo.ts:102
+    // smart_contracts/wetrust/contract.algo.ts:114
     // for (let i: uint64 = 0; i < peerList.length; i += 1) {
     frame_dig 8
     intc_0 // 0
@@ -828,7 +887,7 @@ remove_while_top@16:
     frame_dig 14
     >
     bz remove_after_while@20
-    // smart_contracts/wetrust/contract.algo.ts:103
+    // smart_contracts/wetrust/contract.algo.ts:115
     // if (peerList[i] !== peer) {
     frame_dig 8
     extract 2 0
@@ -844,7 +903,7 @@ remove_while_top@16:
     frame_dig 6
     frame_bury 7
     bz remove_after_if_else@19
-    // smart_contracts/wetrust/contract.algo.ts:104
+    // smart_contracts/wetrust/contract.algo.ts:116
     // newList.push(peerList[i]);
     frame_dig 6
     extract 2 0
@@ -863,7 +922,7 @@ remove_while_top@16:
 remove_after_if_else@19:
     frame_dig 7
     frame_bury 6
-    // smart_contracts/wetrust/contract.algo.ts:102
+    // smart_contracts/wetrust/contract.algo.ts:114
     // for (let i: uint64 = 0; i < peerList.length; i += 1) {
     frame_dig 14
     intc_1 // 1
@@ -872,16 +931,16 @@ remove_after_if_else@19:
     b remove_while_top@16
 
 remove_after_while@20:
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     bytec_2 // "adjacency_list"
-    // smart_contracts/wetrust/contract.algo.ts:107
+    // smart_contracts/wetrust/contract.algo.ts:119
     // this.adjacencyList(Txn.sender).value = newList.copy();
     txn Sender
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     concat
-    // smart_contracts/wetrust/contract.algo.ts:107
+    // smart_contracts/wetrust/contract.algo.ts:119
     // this.adjacencyList(Txn.sender).value = newList.copy();
     dup
     box_del
@@ -895,16 +954,16 @@ remove_after_if_else@21:
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.getTrustedApp(account: bytes) -> bytes:
 getTrustedApp:
-    // smart_contracts/wetrust/contract.algo.ts:113-114
+    // smart_contracts/wetrust/contract.algo.ts:125-126
     // @abimethod({ readonly: true })
     // getTrustedApp(account: Account): arc4.DynamicArray<arc4.UintN64> {
     proto 1 1
-    // smart_contracts/wetrust/contract.algo.ts:20
+    // smart_contracts/wetrust/contract.algo.ts:22
     // trustedApp = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_app" });
     bytec_0 // "trusted_app"
     frame_dig -1
     concat
-    // smart_contracts/wetrust/contract.algo.ts:115
+    // smart_contracts/wetrust/contract.algo.ts:127
     // return this.trustedApp(account).value;
     box_get
     assert // Box must have value
@@ -913,16 +972,16 @@ getTrustedApp:
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.getTrustedASA(account: bytes) -> bytes:
 getTrustedASA:
-    // smart_contracts/wetrust/contract.algo.ts:118-119
+    // smart_contracts/wetrust/contract.algo.ts:130-131
     // @abimethod({ readonly: true })
     // getTrustedASA(account: Account): arc4.DynamicArray<arc4.UintN64> {
     proto 1 1
-    // smart_contracts/wetrust/contract.algo.ts:22
+    // smart_contracts/wetrust/contract.algo.ts:24
     // trustedASA = BoxMap<Account, arc4.DynamicArray<arc4.UintN64>>({ keyPrefix: "trusted_asa" });
     bytec_1 // "trusted_asa"
     frame_dig -1
     concat
-    // smart_contracts/wetrust/contract.algo.ts:120
+    // smart_contracts/wetrust/contract.algo.ts:132
     // return this.trustedASA(account).value;
     box_get
     assert // Box must have value
@@ -931,16 +990,16 @@ getTrustedASA:
 
 // smart_contracts/wetrust/contract.algo.ts::Wetrust.getAdjacencyList(account: bytes) -> bytes:
 getAdjacencyList:
-    // smart_contracts/wetrust/contract.algo.ts:123-124
+    // smart_contracts/wetrust/contract.algo.ts:135-136
     // @abimethod({ readonly: true })
     // getAdjacencyList(account: Account): arc4.DynamicArray<arc4.Address> {
     proto 1 1
-    // smart_contracts/wetrust/contract.algo.ts:24
+    // smart_contracts/wetrust/contract.algo.ts:26
     // adjacencyList = BoxMap<Account, arc4.DynamicArray<arc4.Address>>({ keyPrefix: "adjacency_list" }); // this or use a dynamic array as adjacency list.
     bytec_2 // "adjacency_list"
     frame_dig -1
     concat
-    // smart_contracts/wetrust/contract.algo.ts:125
+    // smart_contracts/wetrust/contract.algo.ts:137
     // return this.adjacencyList(account).value;
     box_get
     assert // Box must have value
