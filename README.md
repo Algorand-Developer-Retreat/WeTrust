@@ -20,6 +20,8 @@ Tha calculation for the scoring is not set at the Smart Contract level, on chain
 
 - Graph Explorer & Scoring
 
-- Enhancement discussion for Merkle Tree instead of an Array
+- Enhancement: Merkle Tree instead of an Array
+
+- Enhancement: Instead of Application IDs use label for the project that has a list of the offical Application IDs they use for their different actions
 
 - ZK proof of relation to not expose Addresses.
